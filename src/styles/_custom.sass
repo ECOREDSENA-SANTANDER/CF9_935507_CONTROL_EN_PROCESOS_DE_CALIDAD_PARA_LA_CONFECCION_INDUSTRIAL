@@ -2,29 +2,280 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 28%
+    right: 80%
+    max-width: 110px
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
-
+    top: 42%
+    right: 0%
+    max-width: 105px
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
+    
 
 .banner-principal .tarjeta
   background-position: left 50% !important
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important   
+  max-width: 420px !important   
 .banner-interno__titulo__icono i
   color: $color-primario
-figcaption
-  font-weight: normal
+figcaption, caption
+  font-weight: normal !important
  
+.titulo-principal__numero
+  i, span
+    color: $color-sistema-texto !important
+.fa-lista
+  li
+    display: flex !important
+    align-items: flex-start
+  li:before
+    position: relative
+    margin-right: 7px
+    font-size: 1.4rem 
+.banner-interno .banner-interno__fondo
+  background-image:  url('../assets/curso/portada/mini-portada.png') !important
+  background-position: top left
+.lista-ul--color.color-primario li > i:first-of-type  
+  color: $color-primario
+.lista-ul--color.color-secundario li > i:first-of-type  
+  color: $color-secundario     
+.lista-ul--color.color-acento-botones li > i:first-of-type  
+  color: $color-acento-botones    
+.lista-ul--color.color-adicional-1 li > i:first-of-type  
+  color: $color-adicional-1  
+.lista-ul--color.color-adicional-2 li > i:first-of-type  
+  color: $color-adicional-2  
+.lista-ol--cuadro.color-primario .lista-ol--cuadro__vineta
+  background-color: $color-primario
+.bg-color-acento-botones
+  background-color: $color-acento-botones
+.bg-color-acento-contenido
+  background-color: $color-acento-contenido
+.bg-color-primario
+  background-color: $color-primario
+.bg-color-secundario
+  background-color: $color-secundario
+.bg-color-sistema-texto
+  background-color: $color-sistema-texto
+.text-color-sistema
+  color: $color-sistema-texto !important
+.bg-color-adicional-1
+  background-color: $color-adicional-1
+.ct-color-primario
+  color: $color-primario
+.ct-color-acento-botones
+  color: $color-acento-botones
+.ct-secundario 
+  color: $color-secundario !important
+.ct-acento-contenido 
+  color: $color-acento-contenido !important
+.w-fit
+  width: fit-content
+.columns-2
+  columns: 2
+.font-italic
+  font-style: italic !important
+.sin-borde
+  border: 0px !important
+.br-top
+  border-top-left-radius: 20px 
+  border-top-right-radius: 20px 
+.br-left
+  border-top-left-radius: 20px 
+  border-bottom-left-radius: 20px 
+.br-right
+  border-top-right-radius: 20px 
+  border-bottom-right-radius: 20px 
+.tabs-a__tab__text 
+  white-space: normal
+.l-circle i.fa-circle
+  font-size: 8px
+  top: 7px !important
+.list-ico 
+  img 
+    width: 15px
+    min-width: 15px
+    margin-right: 8px
+
+
+.bg1
+  background-color: #C0F1E1
+.bg2
+  background-color: #E6E9EF
+.bg3
+  background-color: #C1C5CB
+.bg4
+  background-color: #FCE2B5
+.bg5
+  background-color: #BBC3DC
+.bg6
+  background-color: #D5D8DE
+.bg7
+  background-color: #104936
+.bg8
+  background-color: #ECF2FB
+.bg9
+  background-color: #E0E8FC
+.bgcolor-1
+  background: #141A22
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  border-radius: 20px
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover
+.bgcolor-2
+  background: #ECF2FB
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  border-radius: 20px
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover
+.bg-compl1
+  background-color: #ECF2FB
+  position: relative
+  &::before
+    content: ''
+    position: absolute
+    top: 0
+    left: -20%
+    width: 20%
+    height: 100%
+    background-color: #ECF2FB
+    z-index: 0
+  @media screen and (max-width: 992px)
+    &::before
+     background-color: transparent
+
+
+.w-45x
+  width: 45px
+.w-85x
+  width: 85px
+.w-95x
+  width: 95px
+.br-tl
+  border-top-left-radius: 60px
+.subt
+  display: flex
+  align-items: center
+  gap: 1rem
+  position: relative
+  width: fit-content
+  img
+    width: 50px
+    z-index: 1
+  h3
+    z-index: 2
+    padding-right: 2.5rem
+  &::before
+    content: ''
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    right: 0px
+    width: 100%
+    height: 95%
+    border-radius: 500px
+    background-color: $color-acento-contenido
+.subt2
+  border-top: 4px dashed #182E6E
+  border-bottom: 4px dashed #182E6E
+  width: fit-content
+  padding: 0.7rem 1rem
+.subt3
+  background-color: #BBC3DC
+  width: fit-content
+  padding: 0.7rem 1.7rem
+  border-top-right-radius: 50px
+  border-bottom-right-radius: 50px
+.deco
+  width: 44px
+  height: 44px
+  background-color: $color-acento-contenido
+.deco2
+  width: 100%
+  height: 100%
+  background-color: $color-primario
+.tarj-indic
+  .col-lg-3
+    padding-right: 0
+    padding-left: 0
+  .indic1,   .indic2,   .indic3,   .indic4
+    position: relative
+    height: 100%
+    min-height: 90px
+    display: flex
+    align-items: center
+    clip-path: polygon(0 0, 92% 0, 100% 50%, 92% 100%, 0 100%, 8% 50%)
+  .indic1
+    background-color: #C0F1E1
+    clip-path: polygon(0 0, 92% 0, 100% 50%, 92% 100%, 0 100%)
+  .indic2
+    background-color: #2ED19B
+  .indic3
+    background-color: #24A77C
+  .indic4
+    background-color: #104936
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 92% 100%, 0 100%, 8% 50%)
+.formula
+  display: flex
+  align-items: center
+  justify-content: center
+  gap: 18px
+  width: fit-content
+  .fraction
+    display: flex
+    flex-direction: column
+    align-items: center
+    .top
+      width: 100%
+      text-align: center
+      padding-bottom: 3px
+      border-bottom: 4px solid $color-sistema-texto
+    .bottom
+      margin-top: 3px
+.tabla1 
+  tbody
+    tr:nth-child(odd)
+      background-color: #F6F6F6
+
+.acordion
+  &__titulo h3
+    color: $white
+  &__activo
+    background-color: #C0F1E1
+    .acordion__titulo h3
+      color: $color-sistema-texto
+  &__accion__btn--b
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+.circl-arrow .slyder-f__btn i
+  font-size: 1.2rem
+  background-color: $color-acento-botones
+  height: 46px
+  width: 46px
+  padding: 5px
+  border-radius: 500px
+  display: flex
+  justify-content: center
+  align-items: center
+.tarjeta--boton.bg4
+  cursor: inherit
+  &:hover
+    background-color: #C1C5CB
