@@ -175,13 +175,241 @@
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
       h3.mb-0 Justo a tiempo (JIT)
 
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-1(data-aos="fade-right")
+        img(src='@/assets/curso/temas/t1/13.svg', alt='')
+      .col-lg-11(data-aos="fade-left")
+        p.mb-0 Su filosofía consiste en producir según las necesidades del cliente en cuanto al tiempo y la cantidad eliminando los desperdicios relacionados en la línea de producción. El método justo a tiempo se caracteriza por producir al ritmo del Tack Time, trabajar de manera estandarizada y utilizar el flujo de una pieza para detectar de manera temprana los errores y no en la inspección por muestreo.
 
+    .row.justify-content-center.mb-5
+      .col-lg-3.d-none.d-lg-block
+        img(src='@/assets/curso/temas/t1/14.png', alt='')
+      .col-lg-4 
+        img(src='@/assets/curso/temas/t1/15.svg', alt='')
+      .col-lg-5
+        .bg-color-secundario.py-4.h-100
+          .subt3.mb-4
+            h4.mb-0.pe-5 #[em Takt time]
+          .px-4
+            p.text-white Conocido como los latidos del negocio, se calcula para sincronizar el ritmo de lo que se produce y lo que se vende, con el fin de cumplir al cliente, este es una de las quejas recurrentes del sector de confecciones, relacionado con el manejo del tiempo en las plantas de producción.
+            .bg10.p-4
+              .formula.mx-auto
+                span.label #[em Takt Time] (T / T) = 
+                .fraction
+                  .top.px-1.px-lg-3 (Tiempo disponible)
+                  .bottom.px-1.px-lg-3 (Demanda del cliente)
 
+    p.mb-5 El #[em Takt Time], es la frecuencia con la que se fabrica una pieza o producto en función del ritmo de las ventas con el fin de satisfacer las necesidades del cliente. Es importante hacer la diferencia con el tiempo de ciclo porque el #[em takt time] es determinado por el cliente y el tiempo de ciclo es definido por la empresa. Es por lo anterior que las empresas deben tener un tiempo de ciclo menor al #[em takt time], de allí el problema de incumplimiento de los pedidos y las necesidades de horas y turnos extras en las empresas sobre todo en lo que se llama la temporada alta del año.
+
+    h5.mb-4 En el siguiente ejemplo se puede observar el cálculo del #[em takt time]:
+
+    .row.justify-content-center.mb-5
+      .col-lg-5.d-none.d-lg-block(data-aos="fade-right")
+        img(src='@/assets/curso/temas/t1/16.png', alt='')
+      .col-lg-7(data-aos="fade-left")
+        p Una empresa de confección de pijamas tiene un pedido de 1000 unidades para entregar en 12 horas. En primer lugar se convierten las horas disponibles a segundos (43200 segundos). Luego se aplica la fórmula:
+        .bg9.p-4.px-lg-5.mb-4
+          .bg10.p-4.mb-3
+            .formula.mx-auto
+              span.label #[em Takt Time] (T / T) = 
+              .fraction
+                .top.px-1.px-lg-3 43200 seg.
+                .bottom.px-1.px-lg-3 1000 und.
+          .bg10.p-4
+            .formula.mx-auto
+              span.label #[em Takt Time] (T / T) = 43.2 seg.
+        p Es decir, se debe producir una pijama cada 43,2 segundos.
+
+    h5.mb-4 La metodología del JIT incluye el sistema #[em push and pull]:
+
+    .row.justify-content-center.mb-4(data-aos="fade")
+      .col-lg-10
+        .tarjeta--container.row
+          .col-md.tarjeta.color-secundario.p-4.px-lg-5
+            .row.justify-content-center.mb-4
+              .col-4.col-lg-4.col-md-5
+                img(src='@/assets/curso/temas/t1/tarj1-1.svg', alt='')            
+            h4.text-white.text-center Sistema de empujar o Push System
+            p.text-white El ritmo de los procesos es determinado según un programa maestro de producción en el que las entregas son programadas según pronósticos previos, por tanto, es controlado por información a contracorriente del flujo de producción, es decir, se produce por si acaso, consumos anticipados, lotes grandes, inventarios altos y alto desperdicio.            
+          .col-md.tarjeta.bg7.p-4.px-lg-5
+            .row.justify-content-center.mb-4
+              .col-4.col-lg-4.col-md-5
+                img(src='@/assets/curso/temas/t1/tarj1-2.svg', alt='')            
+            h4.text-white.text-center Sistema de jalar o Pull System
+            p.text-white Las entregas son autorizadas, es controlado por información en dirección de la corriente del flujo de producción, es decir, según la demanda, por tanto, hay más precisión en la producción con consumos reales, lotes pequeños, inventarios bajos y reducción de desperdicios de los procesos.
+
+    p Algunos de los beneficios que tiene la aplicación del método JIT son:
+
+    .bg9.p-4.mb-5(data-aos="fade")
+      .row.justify-content-center.align-items-center
+        .col-lg-1.d-none.d-lg-block
+          img(src="@/assets/curso/temas/t1/17.svg", alt='')
+        .col-lg-11
+          ul.lista-ul.fa-lista.list-ico.mb-0
+            li.mb-0
+              img(src='@/assets/curso/temas/t1/ico-list.svg')
+              span.mb-0 Reducción de inventarios hasta un 50 %.
+            li.mb-0
+              img(src='@/assets/curso/temas/t1/ico-list.svg')
+              span.mb-0 Reducción del tiempo del proceso entre el 50 % y 70 %.
+            li.mb-0
+              img(src='@/assets/curso/temas/t1/ico-list.svg')
+              span.mb-0 Reducción en cambios de herramientas de 50 % al 80 % sin grandes inversiones en equipos y maquinaria.
+            li.mb-0
+              img(src='@/assets/curso/temas/t1/ico-list.svg')
+              span.mb-0 Incremento de la productividad del 20 % al 50 %.
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0 
+      h3.mb-0 Trabajo estandarizado
 
+    p La estandarización es la descripción eficiente del flujo del trabajo en términos de calidad, costo, cantidad y seguridad; combinado de manera efectiva con los recursos de mano de obra, maquina y equipos, insumos, textiles y materiales.
+    p Se utilizan tres instrumentos para los componentes del trabajo estandarizado:
+
+    .row.justify-content-center.mb-4
+      .col-lg-6.d-none.d-lg-block(data-aos="fade-right")
+        img(src='@/assets/curso/temas/t1/18.png', alt='')
+      .col-lg-6(data-aos="fade-left")
+        LineaTiempoD.color-acento-contenido
+          .row(numero="1" titulo="Hoja de trabajo estándar")
+            .col-md-12 
+              p El diagrama ilustra la secuencia en un puesto de trabajo.
+              ul.lista-ul.fa-lista.list-ico.mb-0
+                li.mb-1
+                  img(src='@/assets/curso/temas/t1/ico-list.svg')
+                  span.mb-0 Utilizada para cada coequipero.
+                li.mb-1
+                  img(src='@/assets/curso/temas/t1/ico-list.svg')
+                  span.mb-0 Representa secuencia de las operaciones.
+                li.mb-1
+                  img(src='@/assets/curso/temas/t1/ico-list.svg')
+                  span.mb-0 Muestra el WIP y su localización.
+                li.mb-0
+                  img(src='@/assets/curso/temas/t1/ico-list.svg')
+                  span.mb-0 Tiempo de ciclo para cada trabajo.
+          .row(numero="2" titulo="Hoja de combinación de trabajo estándar")
+            .col-md-12 
+              p Diagrama que ilustra las operaciones de un coequipero.
+              ul.lista-ul.fa-lista.list-ico.mb-0
+                li.mb-1
+                  img(src='@/assets/curso/temas/t1/ico-list.svg')
+                  span.mb-0 Utilizada para cada coequipero.
+                li.mb-1
+                  img(src='@/assets/curso/temas/t1/ico-list.svg')
+                  span.mb-0 Listado de cada paso de cada operación: operaciones manuales, los movimientos y los procesos automáticos.
+                li.mb-0
+                  img(src='@/assets/curso/temas/t1/ico-list.svg')
+                  span.mb-0 Tiempo para cada operación.
+          .row(numero="3" titulo="Diagrama de distribución de trabajo")
+            .col-md-12 
+              p Muestra la distribución de las cargas en los coequiperos para la confección de una prenda.
+              ul.lista-ul.fa-lista.list-ico.mb-0
+                li.mb-0
+                  img(src='@/assets/curso/temas/t1/ico-list.svg')
+                  span.mb-0 Balanceo de línea.
+        
+    .bg9.p-4.mb-5(data-aos="fade")
+      .row.justify-content-center.align-items-center
+        .col-lg-1.d-none.d-lg-block
+          img(src="@/assets/curso/temas/t1/19.svg", alt='')
+        .col-lg-11 
+          p.mb-0 El trabajo estandarizado disminuye los desperdicios, se identifica el trabajo en proceso, ayuda en el cálculo de requerimiento de mano de obra, para atender los pedidos, apoya la administración visual del trabajo en procesos y los defectos que se presenten en ellos. Las herramientas de control estadístico apoyan la estandarización de los procesos, por eso son fundamentales en el desarrollo y aplicación de las metodologías de la manufactura esbelta.
+
+    .subt.mb-4(data-aos="fade-right")
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0 Flujo de trabajo
+
+    .row.justify-content-center.mb-4
+      .col-lg-5(data-aos="fade-right")
+        img(src='@/assets/curso/temas/t1/20.png', alt='')
+      .col-lg-7(data-aos="fade-left")
+        p El flujo de productos, materiales e información debe ser continuo, para mantener la calidad de la producción, mejorando la flexibilidad y confiabilidad de los procesos, de esta manera se eliminan los paros y demoras de los productos para entregar al cliente. Suele suceder que cuando se realiza una inspección se detectan de manera tardía los defectos y se hace dispendioso cuantificar las unidades defectuosas, la ubicación de dichas unidades y la causa del defecto.
+        p Con respecto a mejorar el flujo de los procesos, se debe adaptar el flujo de una pieza con el fin de detectar los defectos de manera inmediata, porque se detecta rápidamente los defectos en el lugar que se ocasiona y seguramente en la primera unidad defectuosa.
+        p El flujo continuo se realiza en tres niveles:
+
+    .row.justify-content-center.mb-5(data-aos="fade")
+      .col-lg-4.mb-3
+        .tarjeta--boton.bg4.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7.col-lg-4
+              img(src='@/assets/curso/temas/t1/tarj2-1.svg', alt='')
+          h4.text-center Flujo de información
+          p Para la toma de decisiones aplicando las técnicas de balanceo de líneas, uso de tarjetas KANBAN, seguimiento diario de los procesos para localizar desviaciones y resolver problemas.
+      .col-lg-4.mb-3
+        .tarjeta--boton.bg4.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7.col-lg-4
+              img(src='@/assets/curso/temas/t1/tarj2-2.svg', alt='')
+          h4.text-center Flujo de materiales
+          p Reducir desperdicio en cada proceso mediante la técnica de Pull, frecuencia de materiales permanente, organización de los procesos.
+      .col-lg-4.mb-3
+        .tarjeta--boton.bg4.h-100.p-4
+          .row.justify-content-center.mb-3
+            .col-7.col-lg-4
+              img(src='@/assets/curso/temas/t1/tarj2-3.svg', alt='')
+          h4.text-center Flujo de operaciones
+          p Coequiperos bien entrenados y asignar las operaciones adecuadas para sincronizar el proceso según el takt time, crear módulos flexibles, tener operarios polivalentes, balancear la línea de producción teniendo en cuenta los pedidos.
+
+    .subt.mb-4(data-aos="fade-right")
+      img(src='@/assets/curso/temas/t1/subt.svg', alt='')
+      h3.mb-0 Jidōka
+
+    .bloque-texto-g.bloque-texto-g--inverso.bg5.br-tl.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade")
+      .bloque-texto-g__img(i
+        :style="{'background-image':`url(${require('@/assets/curso/temas/t1/21.png')})`}")
+      .bloque-texto-g__texto.p-4
+        p Es un término japonés que significa automatización con un toque humano o también llamado autonomación, define un sistema de control autónomo para que los procesos tengan autocontrol de calidad, de allí que cuando se presente un problema de manera automática o manual el proceso se detiene para que no se sigan produciendo piezas defectuosas, y se reanuda una vez se dé solución al problema para producir sin defectos y así se evite pasar al proceso siguiente.
+        p.mb-0 Con el uso de esta técnica se replantea el enfoque de la inspección, porque se centra en la prevención de los defectos y controlar los procesos, produciendo las piezas exactas sin unidades adicionales, disminuyendo los desperdicios de sobreproducción.
+
+    .row.justify-content-center.mb-4(data-aos="fade")
+      .col-lg-5.d-none.d-lg-block.pe-lg-0
+        img(src='@/assets/curso/temas/t1/22.png', alt='')
+      .col-lg-7.ps-lg-0
+        .bg5.h-100.p-4
+          img.w-85x.mb-3(src='@/assets/curso/temas/t1/23.svg', alt='')
+          p.mb-4 La autoridad de parar una línea de producción debe ser otorgada a un coequipero o al inspector con la capacidad de esa toma de decisión, quien pulse el botón de alerta ANDON, indica el problema e informa al equipo. Una máquina automatizada puede tener un dispositivo que detecta de manera automática piezas defectuosas, se detiene y requiere la intervención humana para analizar, corregir y establecer las demás acciones necesarias.
+          p La aplicación de la técnica funciona de la siguiente manera:
+          ul.lista-ul.fa-lista.list-ico.mb-0
+            li
+              img(src='@/assets/curso/temas/t1/ico-list.svg')
+              span.mb-0 Se detecta el defecto.
+            li.mb-0
+              img(src='@/assets/curso/temas/t1/ico-list.svg')
+              span.mb-0 Se oprime el botón de alerta ANDON para detener el proceso. Teniendo en cuenta el color de la alerta se actúa en concordancia, cuando el botón es verde la actividad es óptima, cuando el color es amarillo es una alerta en donde se debe realizar alguna corrección en las piezas, el inspector debe coordinar la acción, debido a que el proceso entra en demora, así mismo el responsable de la operación debe comunicar cuando se presente algún problema de manera temprana; y si es luz roja se detiene completamente la línea de producción, en donde todos los integrantes del equipo deben encontrar la solución factible.
+
+    p.mb-4 A continuación, se pueden observar las 10 fases para la aplicación de la técnica de Jidōka:
+
+    .mb-5
+      .titulo-sexto.color-secundario.mb-3
+        h5 Tabla 1.
+        span 
+      .tabla-a.tabla1.color-secundario
+        table
+          thead
+            tr.bg-color-secundario.text-white
+              th 
+              th 
+          tbody
+            tr
+              td 
+
+
+    .mb-5
+      .titulo-sexto.color-secundario.mb-3
+        h5 Tabla 1.
+        span 
+      .tabla-a.tabla1.color-secundario
+        table
+          thead
+            tr.bg-color-secundario.text-white
+              th 
+              th 
+          tbody
+            tr
+              td 
+
+
+              
 
 
     Separador

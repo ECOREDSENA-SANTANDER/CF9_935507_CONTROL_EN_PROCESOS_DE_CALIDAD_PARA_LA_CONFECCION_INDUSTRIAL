@@ -122,6 +122,8 @@ figcaption, caption
   background-color: #ECF2FB
 .bg9
   background-color: #E0E8FC
+.bg10
+  background-color: #F3F9FF
 .bgcolor-1
   background: #141A22
   background-size: cover
@@ -247,7 +249,7 @@ figcaption, caption
       width: 100%
       text-align: center
       padding-bottom: 3px
-      border-bottom: 4px solid $color-sistema-texto
+      border-bottom: 2px solid $color-sistema-texto
     .bottom
       margin-top: 3px
 .tabla1 
@@ -278,4 +280,16 @@ figcaption, caption
 .tarjeta--boton.bg4
   cursor: inherit
   &:hover
-    background-color: #C1C5CB
+    background-color: #C0F1E1
+.linea-tiempo-d
+  &__item__number
+    background-color: $color-acento-botones
+    font-weight: bold
+  &__item__content
+    background-color: #FCE2B5
+  &__item--selected 
+    .linea-tiempo-d__item__number span
+      color: $color-sistema-texto
+    .linea-tiempo-d__item__content
+      background-color: #C0F1E1
+
