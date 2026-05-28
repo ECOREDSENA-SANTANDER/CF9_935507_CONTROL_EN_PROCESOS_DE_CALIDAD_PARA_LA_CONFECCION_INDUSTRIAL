@@ -30,7 +30,7 @@
     p Con el fin de seguir los lineamientos establecidos en las normas técnicas de calidad como en la normatividad de la empresa, se presenta el procedimiento de la inspección utilizando el muestreo con el fin de estandarizar los procesos, además de tener en cuenta las normas técnicas asociadas para dar soporte a la toma de decisiones al momento de inspeccionar un producto.
 
     .row.justify-content-center.mb-5
-      .col-lg-5.col-md-8.col-10.mb-3.mb-lg-0(data-aos="fade-right")
+      .col-lg-5.d-none.d-lg-block.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/4.png', alt='')
       .col-lg-7(data-aos="fade-left")
         .row.justify-content-center.mb-4
@@ -103,7 +103,7 @@
     .row.justify-content-center.mb-5
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/t1/9.png', alt='')
-      .col-lg-4 
+      .col-lg-4.d-none.d-lg-block 
         img(src='@/assets/curso/temas/t1/10.svg', alt='')
       .col-lg-5
         .bg-color-secundario.py-4.h-100
@@ -161,7 +161,7 @@
     p.mb-4 Para conocer la distribución de estos datos, a continuación, se presenta un modelo de referencia que detalla la estructura de la tarjeta.
 
     .row.justify-content-center.mb-5(data-aos='fade-down')
-      .col-lg-4
+      .col-lg-4.col-md-8
         .titulo-sexto.color-secundario.mb-3
           h5 Figura 2. 
           span Tarjetas Kanban
@@ -176,7 +176,7 @@
       h3.mb-0 Justo a tiempo (JIT)
 
     .row.justify-content-center.align-items-center.mb-4
-      .col-lg-1(data-aos="fade-right")
+      .col-lg-1.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/13.svg', alt='')
       .col-lg-11(data-aos="fade-left")
         p.mb-0 Su filosofía consiste en producir según las necesidades del cliente en cuanto al tiempo y la cantidad eliminando los desperdicios relacionados en la línea de producción. El método justo a tiempo se caracteriza por producir al ritmo del Tack Time, trabajar de manera estandarizada y utilizar el flujo de una pieza para detectar de manera temprana los errores y no en la inspección por muestreo.
@@ -184,7 +184,7 @@
     .row.justify-content-center.mb-5
       .col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/temas/t1/14.png', alt='')
-      .col-lg-4 
+      .col-lg-4.d-none.d-lg-block
         img(src='@/assets/curso/temas/t1/15.svg', alt='')
       .col-lg-5
         .bg-color-secundario.py-4.h-100
@@ -320,7 +320,7 @@
       h3.mb-0 Flujo de trabajo
 
     .row.justify-content-center.mb-4
-      .col-lg-5(data-aos="fade-right")
+      .col-lg-5.col-md-8.mb-3.mb-lg-0(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/20.png', alt='')
       .col-lg-7(data-aos="fade-left")
         p El flujo de productos, materiales e información debe ser continuo, para mantener la calidad de la producción, mejorando la flexibilidad y confiabilidad de los procesos, de esta manera se eliminan los paros y demoras de los productos para entregar al cliente. Suele suceder que cuando se realiza una inspección se detectan de manera tardía los defectos y se hace dispendioso cuantificar las unidades defectuosas, la ubicación de dichas unidades y la causa del defecto.
@@ -328,24 +328,24 @@
         p El flujo continuo se realiza en tres niveles:
 
     .row.justify-content-center.mb-5(data-aos="fade")
-      .col-lg-4.mb-3
+      .col-lg-4.col-md-6.mb-3
         .tarjeta--boton.bg4.h-100.p-4
           .row.justify-content-center.mb-3
-            .col-7.col-lg-4
+            .col-5.col-md-6.col-lg-4
               img(src='@/assets/curso/temas/t1/tarj2-1.svg', alt='')
           h4.text-center Flujo de información
           p Para la toma de decisiones aplicando las técnicas de balanceo de líneas, uso de tarjetas KANBAN, seguimiento diario de los procesos para localizar desviaciones y resolver problemas.
-      .col-lg-4.mb-3
+      .col-lg-4.col-md-6.mb-3
         .tarjeta--boton.bg4.h-100.p-4
           .row.justify-content-center.mb-3
-            .col-7.col-lg-4
+            .col-5.col-md-6.col-lg-4
               img(src='@/assets/curso/temas/t1/tarj2-2.svg', alt='')
           h4.text-center Flujo de materiales
           p Reducir desperdicio en cada proceso mediante la técnica de Pull, frecuencia de materiales permanente, organización de los procesos.
-      .col-lg-4.mb-3
+      .col-lg-4.col-md-6.mb-3
         .tarjeta--boton.bg4.h-100.p-4
           .row.justify-content-center.mb-3
-            .col-7.col-lg-4
+            .col-5.col-md-6.col-lg-4
               img(src='@/assets/curso/temas/t1/tarj2-3.svg', alt='')
           h4.text-center Flujo de operaciones
           p Coequiperos bien entrenados y asignar las operaciones adecuadas para sincronizar el proceso según el takt time, crear módulos flexibles, tener operarios polivalentes, balancear la línea de producción teniendo en cuenta los pedidos.
@@ -379,37 +379,280 @@
 
     p.mb-4 A continuación, se pueden observar las 10 fases para la aplicación de la técnica de Jidōka:
 
-    .mb-5
+    .mb-5(data-aos='fade-down')
       .titulo-sexto.color-secundario.mb-3
         h5 Tabla 1.
-        span 
+        span 10 etapas de automatización Jidōka
       .tabla-a.tabla1.color-secundario
         table
           thead
             tr.bg-color-secundario.text-white
-              th 
-              th 
+              th.w-10 No.
+              th Nombre del paso
+              th Descripción del paso
+              th Ejemplo
           tbody
             tr
-              td 
+              td.fw-bold.text-center 1
+              td Automatización del proceso.
+              td Transferir esfuerzo de operario en esfuerzo de máquina.
+              td Operación automatizada de pegar pecheras.
+            tr
+              td.fw-bold.text-center 2
+              td Automatización de sujetar.
+              td Sustituir de apretar manualmente una pieza a realizarlo mecánicamente.
+              td Al tomar la pieza del posterior de un pantalón para desplazarlo y posicionarlo en una máquina plana y proceder a pegar un bolsillo.
+            tr
+              td.fw-bold.text-center 3
+              td Automatización de alimentación.
+              td Alimentación automática. El operario solo interviene para detener la alimentación en caso de errores.
+              td En operación de pegar botones se sustituye de manera manual la alimentación del botón, al realizarlo con un sistema de tolva que va alimentando los botones.
+            tr
+              td.fw-bold.text-center 4
+              td Automatización de paradas.
+              td El proceso se detiene de manera automática sin la Intervención del coequipero.
+              td El sistema de empaque se detiene de manera automática al no tener artículos para empacar.
+            tr
+              td.fw-bold.text-center 5
+              td Automatización de retornos.
+              td El sistema vuelve al inicio del proceso sin intervención del coequipero.
+              td La máquina vuelve a iniciar el proceso en operaciones de planchado.
+            tr
+              td.fw-bold.text-center 6
+              td La máquina vuelve a iniciar el proceso en operaciones de planchado.
+              td La pieza es retirada automáticamente sin afectar la secuencia en la siguiente pieza.
+              td Una pieza que no quedó con un encaje en uno de sus puños es retirada, y sigue operando con la siguiente pieza.
+            tr
+              td.fw-bold.text-center 7
+              td Mecanismo anti-error: POKA YOKE.
+              td Dispositivos a prueba de error con el fin de prevenir los errores y alertar al operario.
+              td Utilizar una guía que detecte la medida de un largo de pasador para luego pegar en pretina.
+            tr
+              td.fw-bold.text-center 8
+              td Autonomación de carga.
+              td La pieza es cargada sin intervención del operario. El proceso cuenta con la capacidad de detectar errores y parar.
+              td En el proceso de lavanderia se carga la máquina y detecta errores y se detiene.
+            tr
+              td.fw-bold.text-center 9
+              td Autonomación de Inicio.
+              td La máquina puede iniciar a procesar la pieza de manera automática.
+              td Inicio de procesos de bordado.
+            tr
+              td.fw-bold.text-center 10
+              td Autonomación de transferencia.
+              td La máquina realiza operaciones de enlace entre una y otra operación.
+              td Transporte por medio de bandas entre uno y otro puesto de trabajo.
 
+    p.mb-4 Antes de examinar los procedimientos, se tienen en cuenta las diferentes Normas técnicas Colombianas relacionadas, las cuales se debe aplicar dependiendo de la línea de producto, los insumos, los textiles y se incluyen las normas relacionadas con el control estadístico de calidad.
 
-    .mb-5
+    .mb-4(data-aos='fade-down')
       .titulo-sexto.color-secundario.mb-3
-        h5 Tabla 1.
-        span 
+        h5 Tabla 2.
+        span Normas técnicas Colombianas
       .tabla-a.tabla1.color-secundario
         table
           thead
             tr.bg-color-secundario.text-white
-              th 
-              th 
+              th.w-25 Norma
+              th Detalle
           tbody
             tr
-              td 
+              td.fw-bold NTC 2398	
+              td Prendas interiores femeninas.
+            tr
+              td.fw-bold NTC 2260	
+              td Pantalones tipo Jean y otros pantalones.
+            tr
+              td.fw-bold NTC 340	
+              td Rotulado de textiles y confecciones.
+            tr
+              td.fw-bold NTC 617:1972	
+              td Planchado permanente. Telas y confecciones. Evaluación de la apariencia de lisura.
+            tr
+              td.fw-bold NTC 2089	
+              td Hilos de algodón.
+            tr
+              td.fw-bold NTC 2274	
+              td Hilos de poliéster.
+            tr
+              td.fw-bold NTC 2510	
+              td Botones plásticos.
+            tr
+              td.fw-bold NTC 1990	
+              td Fibra cortada de poliéster.
+            tr
+              td.fw-bold NTC 703	
+              td Telas de tejido plano.
+            tr
+              td.fw-bold NTC 1902	
+              td Tallas.
+            tr
+              td.fw-bold NTC 313	
+              td Método de ensayo para determinar resistencia al desgarre.
+            tr
+              td.fw-bold NTC 1785	
+              td Fibras textiles. Determinación de los defectos.
+            tr
+              td.fw-bold NTC 378	
+              td Textiles. Atmósfera normal para acondicionamiento y ensayo.
+            tr
+              td.fw-bold NTC 840	
+              td Fibras. Determinación de los rizos por centímetro.
+            tr
+              td.fw-bold NTC 959	
+              td Fibras manufacturadas cortadas. Métodos de ensayo.
+            tr
+              td.fw-bold NTC 481:1997	
+              td Telas. Determinación cuantitativa de fibras o hilazas.
+            tr
+              td.fw-bold NTC 754:1983	
+              td Telas. Determinación de la resistencia a la rotura por tensión.
+            tr
+              td.fw-bold NTC 772:1996	
+              td Materiales textiles. Determinación de la solidez del color al sudor.
+            tr
+              td.fw-bold NTC 786:1996	
+              td Materiales textiles. Determinación de la solidez del color al frotamiento.
+            tr
+              td.fw-bold NTC 908:1997	
+              td Textiles y confecciones. Cambios dimensionales en telas de tejido plano y de punto por lavado en máquina automática de uso doméstico.
+            tr
+              td.fw-bold NTC 1068:1999	
+              td Materiales textiles. Solidez de los colores a los disolventes orgánicos.
+            tr
+              td.fw-bold NTC 1155:1997	
+              td Materiales textiles. Determinación de la solidez del color al lavado.
+            tr
+              td.fw-bold NTC 1386:1997	
+              td Telas. Determinación al deslizamiento de los hilos en la costura.
+            tr
+              td.fw-bold NTC-ISO 2859-1:1994	
+              td Procedimientos de muestreo para inspección por atributos. Parte 1: Planes de muestreo determinados por el nivel aceptable de calidad (NAC). Para inspección de lotes continuos.
+            tr
+              td.fw-bold NTC-ISO 2859-2	
+              td Procedimientos de muestreo para inspección por atributos. Parte 2: Planes de muestreo determinados por la calidad límite. Para inspección de lotes aislados.
+            tr
+              td.fw-bold NTC-ISO 3951-1	
+              td Procedimiento de muestreo para inspección por variables en series continuas de lotes.
+            tr
+              td.fw-bold NTC 2062-1	
+              td Términos estadísticos generales.
 
+    p.mb-4 Las normas mencionadas en la tabla anterior son algunas con las cuales se tiene en cuenta para definir las características a inspeccionar, y junto con el listado de defectos establecido se concluye cuales son los niveles de aceptación de calidad. Para la industria de la manufactura de confección se recomienda tener en cuenta los siguientes factores para los puntos de la inspección:
 
-              
+    .row.justify-content-center.mb-4
+      .col-lg-5.d-none.d-lg-block(data-aos="fade-right")
+        img(src='@/assets/curso/temas/t1/24.png', alt='')
+      .col-lg-7(data-aos="fade-left")
+        .row.justify-content-center.align-items-center.mb-4
+          .col-lg.d-none.d-lg-block
+            img.w-85x(src='@/assets/curso/temas/t1/25.svg', alt='')
+          .col-lg-10
+            p.mb-0 Para la industria de la manufactura de confección se recomienda tener en cuenta los siguientes factores para los puntos de la inspección:
+        ul.lista-ul.fa-lista.list-ico.mb-0
+          li.mb-0
+            img(src='@/assets/curso/temas/t1/ico-list.svg')
+            span.mb-0 En operaciones en donde se coloquen aditamentos, se ajusten guías.
+          li.mb-0
+            img(src='@/assets/curso/temas/t1/ico-list.svg')
+            span.mb-0 Realizarla en una operación antes que sea difícil o costosa su corrección.
+          li.mb-0
+            img(src='@/assets/curso/temas/t1/ico-list.svg')
+            span.mb-0 Mientras se está desarrollando una operación, llamada crítica por su alto costo y dificultad derivada de la precisión requerida.
+          li.mb-0
+            img(src='@/assets/curso/temas/t1/ico-list.svg')
+            span.mb-0 En puntos acordados por consenso con el equipo de trabajo debido a su desarrollo común en todos los procesos.
+          li.mb-0
+            img(src='@/assets/curso/temas/t1/ico-list.svg')
+            span.mb-0 En almacenamiento y embalaje.
+          li.mb-0
+            img(src='@/assets/curso/temas/t1/ico-list.svg')
+            span.mb-0 En suministros o almacén de insumos y materiales.
+            
+    p.mb-4 Además, es importante tener en cuenta que en cada proceso el coequipero tiene:
+
+    .row.justify-content-center.mb-5
+      .col-lg-3.d-none.d-lg-block
+        img(src='@/assets/curso/temas/t1/26.png', alt='')
+      .col-lg-4.d-none.d-lg-block
+        img(src='@/assets/curso/temas/t1/27.svg', alt='')
+      .col-lg-5
+        .bg-color-secundario.text-white.d-flex.flex-column.justify-content-center.p-4.h-100
+          ul.lista-ul.fa-lista.list-ico.mb-0
+            li
+              img(src='@/assets/curso/temas/t1/ico-list2.svg')
+              span.mb-0 Derecho de esperar material perfecto.
+            li
+              img(src='@/assets/curso/temas/t1/ico-list2.svg')
+              span.mb-0 Obligación de inspeccionar el material antes de usarlo.
+            li
+              img(src='@/assets/curso/temas/t1/ico-list2.svg')
+              span.mb-0 Obligación de informar los problemas a la operación o procesos anteriores.
+            li
+              img(src='@/assets/curso/temas/t1/ico-list2.svg')
+              span.mb-0 Obligación de detener el procesos si es el caso para no seguir, hasta que sea resuelto el problema.
+
+    p.mb-4 También es necesario realizar la planeación para tener cero defectos, teniendo en cuenta la utilización de cualquier herramienta de calidad en todos los recursos de la empresa como son: mano de obra, materiales, métodos, máquinas e información, la metodología Lean Manufacturing tiene como fin que no se presenten defectos en los productos; Para la estandarización del trabajo, la metodología Lean Manufacturing establece el siguiente esquema de acciones de mejora:
+
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-lg-8
+        .titulo-sexto.color-secundario.mb-3
+          h5 Figura 3. 
+          span Acciones de mejora, metodología Lean Manufacturing
+        figure
+          img(src='@/assets/curso/temas/t1/fig3.svg', alt='Esquema metodológico que estructura la aplicación de la producción esbelta a partir de las 5S. Define acciones clave organizadas en cinco pilares operativos de la planta: mano de obra (capacitación), información (control visual), materiales (inspección), máquinas (mantenimiento y sistemas anti-error) y método (flujo y estandarización).')
+
+    p.mb-4 Es importante tener clara la diferencia entre el proceso y procedimiento:
+
+    .row.justify-content-center.mb-4(data-aos="fade-down")
+      .col-lg-7
+        .titulo-sexto.color-secundario.mb-3
+          h5 Tabla 3.
+          span Diferencia entre el proceso y procedimiento
+        .tabla-a.tabla1.color-secundario
+          table
+            thead
+              tr.bg-color-secundario.text-white
+                th Proceso
+                th Procedimiento
+            tbody
+              tr
+                td Tienen etapas.	
+                td Tienen pasos o tareas.
+              tr
+                td Cumple un objetivo común.	
+                td Cumple objetivos específicos.
+              tr
+                td Lo realizan varias personas en las diferentes áreas.	
+                td Lo realiza una persona o una misma área.
+              tr
+                td Se ejecuta continuamente.	
+                td Se ejecuta de manera intermitente.
+              tr
+                td Son dinámicos (cambian frecuentemente).	
+                td Son estáticos (no varían fácilmente).
+              tr
+                td Operan y gestionan.	
+                td Se implementan.
+
+    .row.bgcolor-1.align-items-center.p-3.p-md-4(data-aos="fade-down")
+      .col-lg-12.col-12.px-lg-4
+        .row.justify-content-center.align-items-center
+
+          .row.justify-content-center
+            .col-lg-12
+              .row.justify-content-around.align-items-center
+                .col-3.col-sm-2.col-lg-1
+                  img(src="@/assets/curso/temas/t1/cta.svg")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col-12.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
+                      h4.mb-1 Plantilla de procedimiento
+                      p.mb-0 Observe un ejemplo del documento que registra los procedimientos y su estructura.
+                    .col.col-lg-2.mb-3.mb-sm-0
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Plantilla_Procedimiento.docx')" target="_blank" type="application/pdf")
+                        span Descargar 
+                        i.fas.fa-file-download 
 
 
     Separador
@@ -419,7 +662,7 @@
     p.mb-4 En los procesos de inspección las variaciones dan como resultado diferentes medidas de una variable, las cuales tienen una distribución normal o gaussiana, se puede observar en el diagrama en forma de campana o de Gauss.
 
     .row.justify-content-center.mb-5(data-aos='fade-down')
-      .col-lg-6
+      .col-lg-6.col-md-10
         .titulo-sexto.color-secundario.mb-3
           h5 Figura 4. 
           span Muestreo del lote por variables
@@ -610,8 +853,8 @@
       .col-12
         .titulo-sexto.color-secundario.mb-3
           h5 Figura 5.
-          span  Flujograma del procedimiento según la Norma ISO 2859-1
-      .col-lg-6  
+          span Flujograma del procedimiento según la Norma ISO 2859-1
+      .col-lg-6.col-md-9
         figure
           img(src='@/assets/curso/temas/t1/fig5.svg', alt='Diagrama de flujo que describe el proceso de inspección de un lote de tamaño N. El procedimiento avanza secuencialmente desde la selección de la muestra de tamaño n y la inspección de sus unidades, hasta llegar a un nodo de decisión sobre las unidades defectuosas encontradas, del cual se derivan dos opciones: aceptar el lote o rechazarlo, conllevando esta última acción a una inspección de unidades al cien por ciento.')
 
