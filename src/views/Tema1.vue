@@ -39,17 +39,17 @@
           .col-lg-10
             p.mb-0 Es necesario recalcar la elección del tamaño de la muestra, el cual es de especial atención, porque debe garantizar la representación del lote, pues una muestra pequeña puede ser insuficiente para aceptar o rechazar un lote o una muestra grande dificulta la eficacia de la medición.
         p Para elegir el tamaño de la muestra es necesario tener en cuenta el plazo de entrega de la producción, la duración de la inspección, la disponibilidad de los productos y los costos unitarios del producto.
-        p Antes de examinar el producto hay que considerar que el procedimiento tiene en cuenta técnicas de Manufactura Esbelta que apoyan la gestión de calidad de una planta, como son: Heijunka, Control visual, Kanban, Just in Time (JIT) o Justo a Tiempo, Jidoka, entre otras y las cuales ayudan al control de la variabilidad de los procesos.
+        p Antes de examinar el producto hay que considerar que el procedimiento tiene en cuenta técnicas de Manufactura Esbelta que apoyan la gestión de calidad de una planta, como son: #[em Heijunka], Control visual, #[em Kanban], #[em Just in Time (JIT)] o Justo a Tiempo, #[em Jidoka], entre otras y las cuales ayudan al control de la variabilidad de los procesos.
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0 Heijunka
+      h3.mb-0 #[em Heijunka]
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="fade-right")
         p Es la técnica para planificar y nivelar los pedidos teniendo en cuenta la cantidad y la variedad de productos de cada pedido. Es necesario conocer la demanda, aplicar la estandarización del producto y el proceso con el fin de establecer el manejo de lotes pequeños o utilizar un lote único para mantener una producción continua y nivelada.
         p Para aplicar esta técnica se utilizan células de trabajo las cuales le caracterizan por ser flexibles, las cuales se unen para obtener una célula de trabajo conjunta en donde los procesos van coordinados para conseguir el producto planificado.
-        p Las celulas o módulos de producción son pequeñas empresas dentro de la planta, las cuales se crean teniendo en cuenta lo siguiente:
+        p Las células o módulos de producción son pequeñas empresas dentro de la planta, las cuales se crean teniendo en cuenta lo siguiente:
         .bg-compl1.p-4   
           ul.lista-ul.fa-lista.list-ico.mb-0
             li
@@ -89,7 +89,7 @@
               span.mb-0 Reduce el transporte al disminuir el espacio entre las máquinas y la organización del proceso.
             li.mb-0
               img(src='@/assets/curso/temas/t1/ico-list.svg')
-              span.mb-0 Mejora el uso de la maquinaria y equipos por la mejore en la planificación y el flujo de los procesos.
+              span.mb-0 Mejora el uso de la maquinaria y equipos por la mejora en la planificación y el flujo de los procesos.
 
     p.mb-5 Una de las herramientas utilizadas son los balanceos de línea en hojas de cálculo o programas especiales. Para la distribución de cargas de trabajo, se tiene en cuenta además de la eficiencia del coequipero, la calidad aportada en la célula de trabajo con el fin de mejorar en conjunto desempeño y calidad.
 
@@ -135,7 +135,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0 Kanban
+      h3.mb-0 #[em Kanban]
 
     .row.justify-content-center.mb-4
       .col-lg-5.col-md-8.col-10.mb-3.mb-lg-0(data-aos="fade-right")
@@ -153,23 +153,23 @@
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
           h5 Figura 1. 
-          span Tablero Kanban
+          span Tablero #[em Kanban]
         figure
           img(src='@/assets/curso/temas/t1/fig1.svg', alt='Diagrama de un tablero Kanban que organiza el flujo de trabajo mediante una matriz de prioridades y estados de producción. En el eje vertical se clasifican las tareas por niveles de urgencia: Urgente, Importante y Normal; mientras que en el eje horizontal se realiza el seguimiento a través de cinco etapas secuenciales: Pendiente, Trabajando, Lote Piloto, En Proceso y Terminado. Las actividades específicas se representan mediante tarjetas distribuidas dentro de las celdas de esta estructura para facilitar el control del proceso.')
 
-    p Las tarjetas Kanban son un mecanismo de comunicación de las órdenes de producción entre los diferentes puestos de trabajo, en las tarjetas se puede incluir su nombre, código de pieza, el lugar donde se fabricará, cantidad de piezas a producir, el lugar donde se almacenarán las prendas terminadas.
+    p Las tarjetas #[em Kanban] son un mecanismo de comunicación de las órdenes de producción entre los diferentes puestos de trabajo, en las tarjetas se puede incluir su nombre, código de pieza, el lugar donde se fabricará, cantidad de piezas a producir, el lugar donde se almacenarán las prendas terminadas.
     p.mb-4 Para conocer la distribución de estos datos, a continuación, se presenta un modelo de referencia que detalla la estructura de la tarjeta.
 
     .row.justify-content-center.mb-5(data-aos='fade-down')
       .col-lg-4.col-md-8
         .titulo-sexto.color-secundario.mb-3
           h5 Figura 2. 
-          span Tarjetas Kanban
+          span Tarjetas #[em Kanban]
         figure
           img(src='@/assets/curso/temas/t1/fig2.svg', alt='Modelo de una tarjeta Kanban de producción textil que detalla la estructura y distribución de sus campos informativos, tales como código, descripción del producto (Camisa ortega), cantidades a confeccionar, ubicación en estantería y especificaciones del material requerido.')
 
-    p Existen dos tipos de Kanban, el de producción que indica o autoriza qué y cuánto se debe confeccionar en el proceso posterior; y el de transporte que indica o autoriza qué y cuánto material se retira del proceso anterior.
-    p.mb-5 La finalidad del uso de estas tarjetas es conseguir un reaprovisionamiento del material vendido sin generar stocks innecesarios y por tanto disminuir desperdicio de inventario.
+    p Existen dos tipos de #[em Kanban], el de producción que indica o autoriza qué y cuánto se debe confeccionar en el proceso posterior; y el de transporte que indica o autoriza qué y cuánto material se retira del proceso anterior.
+    p.mb-5 La finalidad del uso de estas tarjetas es conseguir un reaprovisionamiento del material vendido sin generar #[em stocks] innecesarios y por tanto disminuir desperdicio de inventario.
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
@@ -179,7 +179,7 @@
       .col-lg-1.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/13.svg', alt='')
       .col-lg-11(data-aos="fade-left")
-        p.mb-0 Su filosofía consiste en producir según las necesidades del cliente en cuanto al tiempo y la cantidad eliminando los desperdicios relacionados en la línea de producción. El método justo a tiempo se caracteriza por producir al ritmo del Tack Time, trabajar de manera estandarizada y utilizar el flujo de una pieza para detectar de manera temprana los errores y no en la inspección por muestreo.
+        p.mb-0 Su filosofía consiste en producir según las necesidades del cliente en cuanto al tiempo y la cantidad eliminando los desperdicios relacionados en la línea de producción. El método justo a tiempo se caracteriza por producir al ritmo del #[em Takt Time], trabajar de manera estandarizada y utilizar el flujo de una pieza para detectar de manera temprana los errores y no en la inspección por muestreo.
 
     .row.justify-content-center.mb-5
       .col-lg-3.d-none.d-lg-block
@@ -189,7 +189,7 @@
       .col-lg-5
         .bg-color-secundario.py-4.h-100
           .subt3.mb-4
-            h4.mb-0.pe-5 #[em Takt time]
+            h4.mb-0.pe-5 #[em Takt Time]
           .px-4
             p.text-white Conocido como los latidos del negocio, se calcula para sincronizar el ritmo de lo que se produce y lo que se vende, con el fin de cumplir al cliente, este es una de las quejas recurrentes del sector de confecciones, relacionado con el manejo del tiempo en las plantas de producción.
             .bg10.p-4
@@ -229,13 +229,13 @@
             .row.justify-content-center.mb-4
               .col-4.col-lg-4.col-md-5
                 img(src='@/assets/curso/temas/t1/tarj1-1.svg', alt='')            
-            h4.text-white.text-center Sistema de empujar o Push System
+            h4.text-white.text-center Sistema de empujar o #[em Push System]
             p.text-white El ritmo de los procesos es determinado según un programa maestro de producción en el que las entregas son programadas según pronósticos previos, por tanto, es controlado por información a contracorriente del flujo de producción, es decir, se produce por si acaso, consumos anticipados, lotes grandes, inventarios altos y alto desperdicio.            
           .col-md.tarjeta.bg7.p-4.px-lg-5
             .row.justify-content-center.mb-4
               .col-4.col-lg-4.col-md-5
                 img(src='@/assets/curso/temas/t1/tarj1-2.svg', alt='')            
-            h4.text-white.text-center Sistema de jalar o Pull System
+            h4.text-white.text-center Sistema de jalar o #[em Pull System]
             p.text-white Las entregas son autorizadas, es controlado por información en dirección de la corriente del flujo de producción, es decir, según la demanda, por tanto, hay más precisión en la producción con consumos reales, lotes pequeños, inventarios bajos y reducción de desperdicios de los procesos.
 
     p Algunos de los beneficios que tiene la aplicación del método JIT son:
@@ -283,7 +283,7 @@
                   span.mb-0 Representa secuencia de las operaciones.
                 li.mb-1
                   img(src='@/assets/curso/temas/t1/ico-list.svg')
-                  span.mb-0 Muestra el WIP y su localización.
+                  span.mb-0 Muestra el #[em WIP (Work In Progress)] y su localización.
                 li.mb-0
                   img(src='@/assets/curso/temas/t1/ico-list.svg')
                   span.mb-0 Tiempo de ciclo para cada trabajo.
@@ -334,7 +334,7 @@
             .col-5.col-md-6.col-lg-4
               img(src='@/assets/curso/temas/t1/tarj2-1.svg', alt='')
           h4.text-center Flujo de información
-          p Para la toma de decisiones aplicando las técnicas de balanceo de líneas, uso de tarjetas KANBAN, seguimiento diario de los procesos para localizar desviaciones y resolver problemas.
+          p Para la toma de decisiones aplicando las técnicas de balanceo de líneas, uso de tarjetas #[em KANBAN], seguimiento diario de los procesos para localizar desviaciones y resolver problemas.
       .col-lg-4.col-md-6.mb-3
         .tarjeta--boton.bg4.h-100.p-4
           .row.justify-content-center.mb-3
@@ -348,11 +348,11 @@
             .col-5.col-md-6.col-lg-4
               img(src='@/assets/curso/temas/t1/tarj2-3.svg', alt='')
           h4.text-center Flujo de operaciones
-          p Coequiperos bien entrenados y asignar las operaciones adecuadas para sincronizar el proceso según el takt time, crear módulos flexibles, tener operarios polivalentes, balancear la línea de producción teniendo en cuenta los pedidos.
+          p Coequiperos bien entrenados y asignar las operaciones adecuadas para sincronizar el proceso según el #[em takt time], crear módulos flexibles, tener operarios polivalentes, balancear la línea de producción teniendo en cuenta los pedidos.
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0 Jidōka
+      h3.mb-0 #[em Jidōka]
 
     .bloque-texto-g.bloque-texto-g--inverso.bg5.br-tl.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade")
       .bloque-texto-g__img(i
@@ -367,7 +367,7 @@
       .col-lg-7.ps-lg-0
         .bg5.h-100.p-4
           img.w-85x.mb-3(src='@/assets/curso/temas/t1/23.svg', alt='')
-          p.mb-4 La autoridad de parar una línea de producción debe ser otorgada a un coequipero o al inspector con la capacidad de esa toma de decisión, quien pulse el botón de alerta ANDON, indica el problema e informa al equipo. Una máquina automatizada puede tener un dispositivo que detecta de manera automática piezas defectuosas, se detiene y requiere la intervención humana para analizar, corregir y establecer las demás acciones necesarias.
+          p.mb-4 La autoridad de parar una línea de producción debe ser otorgada a un coequipero o al inspector con la capacidad de esa toma de decisión, quien pulse el botón de alerta #[em ANDON], indica el problema e informa al equipo. Una máquina automatizada puede tener un dispositivo que detecta de manera automática piezas defectuosas, se detiene y requiere la intervención humana para analizar, corregir y establecer las demás acciones necesarias.
           p La aplicación de la técnica funciona de la siguiente manera:
           ul.lista-ul.fa-lista.list-ico.mb-0
             li
@@ -375,14 +375,14 @@
               span.mb-0 Se detecta el defecto.
             li.mb-0
               img(src='@/assets/curso/temas/t1/ico-list.svg')
-              span.mb-0 Se oprime el botón de alerta ANDON para detener el proceso. Teniendo en cuenta el color de la alerta se actúa en concordancia, cuando el botón es verde la actividad es óptima, cuando el color es amarillo es una alerta en donde se debe realizar alguna corrección en las piezas, el inspector debe coordinar la acción, debido a que el proceso entra en demora, así mismo el responsable de la operación debe comunicar cuando se presente algún problema de manera temprana; y si es luz roja se detiene completamente la línea de producción, en donde todos los integrantes del equipo deben encontrar la solución factible.
+              span.mb-0 Se oprime el botón de alerta #[em ANDON] para detener el proceso. Teniendo en cuenta el color de la alerta se actúa en concordancia, cuando el botón es verde la actividad es óptima, cuando el color es amarillo es una alerta en donde se debe realizar alguna corrección en las piezas, el inspector debe coordinar la acción, debido a que el proceso entra en demora, así mismo el responsable de la operación debe comunicar cuando se presente algún problema de manera temprana; y si es luz roja se detiene completamente la línea de producción, en donde todos los integrantes del equipo deben encontrar la solución factible.
 
-    p.mb-4 A continuación, se pueden observar las 10 fases para la aplicación de la técnica de Jidōka:
+    p.mb-4 A continuación, se pueden observar las 10 fases para la aplicación de la técnica de #[em Jidōka]x:
 
     .mb-5(data-aos='fade-down')
       .titulo-sexto.color-secundario.mb-3
         h5 Tabla 1.
-        span 10 etapas de automatización Jidōka
+        span 10 etapas de automatización #[em Jidōka]x
       .tabla-a.tabla1.color-secundario
         table
           thead
@@ -424,14 +424,14 @@
               td Una pieza que no quedó con un encaje en uno de sus puños es retirada, y sigue operando con la siguiente pieza.
             tr
               td.fw-bold.text-center 7
-              td Mecanismo anti-error: POKA YOKE.
+              td Mecanismo anti-error: #[em POKA YOKE].
               td Dispositivos a prueba de error con el fin de prevenir los errores y alertar al operario.
               td Utilizar una guía que detecte la medida de un largo de pasador para luego pegar en pretina.
             tr
               td.fw-bold.text-center 8
               td Autonomación de carga.
               td La pieza es cargada sin intervención del operario. El proceso cuenta con la capacidad de detectar errores y parar.
-              td En el proceso de lavanderia se carga la máquina y detecta errores y se detiene.
+              td En el proceso de lavandería se carga la máquina y detecta errores y se detiene.
             tr
               td.fw-bold.text-center 9
               td Autonomación de Inicio.
@@ -448,7 +448,7 @@
     .mb-4(data-aos='fade-down')
       .titulo-sexto.color-secundario.mb-3
         h5 Tabla 2.
-        span Normas técnicas Colombianas
+        span Normas técnicas colombianas
       .tabla-a.tabla1.color-secundario
         table
           thead
@@ -590,15 +590,15 @@
               span.mb-0 Obligación de informar los problemas a la operación o procesos anteriores.
             li
               img(src='@/assets/curso/temas/t1/ico-list2.svg')
-              span.mb-0 Obligación de detener el procesos si es el caso para no seguir, hasta que sea resuelto el problema.
+              span.mb-0 Obligación de detener el proceso si es el caso para no seguir, hasta que sea resuelto el problema.
 
-    p.mb-4 También es necesario realizar la planeación para tener cero defectos, teniendo en cuenta la utilización de cualquier herramienta de calidad en todos los recursos de la empresa como son: mano de obra, materiales, métodos, máquinas e información, la metodología Lean Manufacturing tiene como fin que no se presenten defectos en los productos; Para la estandarización del trabajo, la metodología Lean Manufacturing establece el siguiente esquema de acciones de mejora:
+    p.mb-4 También es necesario realizar la planeación para tener cero defectos, teniendo en cuenta la utilización de cualquier herramienta de calidad en todos los recursos de la empresa como son: mano de obra, materiales, métodos, máquinas e información, la metodología #[em Lean manufacturing] tiene como fin que no se presenten defectos en los productos; Para la estandarización del trabajo, la metodología #[em Lean manufacturing] establece el siguiente esquema de acciones de mejora:
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
           h5 Figura 3. 
-          span Acciones de mejora, metodología Lean Manufacturing
+          span Acciones de mejora, metodología #[em Lean manufacturing]
         figure
           img(src='@/assets/curso/temas/t1/fig3.svg', alt='Esquema metodológico que estructura la aplicación de la producción esbelta a partir de las 5S. Define acciones clave organizadas en cinco pilares operativos de la planta: mano de obra (capacitación), información (control visual), materiales (inspección), máquinas (mantenimiento y sistemas anti-error) y método (flujo y estandarización).')
 
@@ -648,7 +648,7 @@
                   .row.justify-content-between.align-items-center
                     .col-12.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Plantilla de procedimiento
-                      p.mb-0 Observe un ejemplo del documento que registra los procedimientos y su estructura.
+                      p.mb-0 Descargue un ejemplo del documento que registra los procedimientos y su estructura.
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Plantilla_Procedimiento.docx')" target="_blank" type="application/pdf")
                         span Descargar 
@@ -720,17 +720,17 @@
                 th Desventajas
             tbody
               tr
-                td Uso de muestras pequeñas.	
+                td Uso de muestras pequeñas.
                 td Solo aplica a una característica.
               tr
-                td Se valora el cumplimiento o no de una especificación otorgada.	
+                td Se valora el cumplimiento o no de una especificación otorgada.
                 td Se asume que la variable tiene una distribución normal, lo cual puede ser diferente y debe ser verificado.
               tr
-                td Facilidad para detectar los errores de medición.	
-                td Implica mayores costos por el personal calificado y dispositivos de medición.
+                td Facilidad para detectar los errores de medición.
+                td Implica mayores costos por el personal calificado y los dispositivos de medición.
               tr
                 td Aporta mejor sustento para la toma de decisiones.
-                td Implica mayores costos por el personal calificado y dispositivos de medición.      
+                td Requiere mayor tiempo para registrar, tabular y analizar los datos obtenidos.
 
     p Para realizar el procedimiento se debe tener definido:
 
@@ -758,7 +758,7 @@
           ul.lista-ul.fa-lista.list-ico.mb-0
             li.mb-1
               img(src='@/assets/curso/temas/t1/ico-list.svg')
-              span.mb-0 Definir el Nivel Aceptable de Calidad (NAC), el cual depende del tamaño de la muestra y dependiendo de las características a inspeccionar definidas, puede ser diferente, pero el NAC no puede ser superior a 10%.
+              span.mb-0 Definir el Nivel Aceptable de Calidad (NAC), el cual depende del tamaño de la muestra y dependiendo de las características a inspeccionar definidas, puede ser diferente, pero el NAC no puede ser superior a 10 %.
             li.mb-1
               img(src='@/assets/curso/temas/t1/ico-list.svg')
               span.mb-0 Definir el nivel de inspección, si se utilizan los de tipo general: I, II o III, en el caso de muestras pequeñas para ensayos se utilizan: S1, S2, S3 o S4.
@@ -793,7 +793,7 @@
                   .row.justify-content-between.align-items-center
                     .col-12.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Ejemplo1. Muestreo por variables
-                      p.mb-0 Observe un ejemplo de aplicación de muestreo de lotes por variables.
+                      p.mb-0 Descargue un ejemplo de aplicación de muestreo de lotes por variables.
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Ejemplo1_muestreo_por_variables.docx')" target="_blank" type="application/pdf")
                         span Descargar 
@@ -883,7 +883,7 @@
                   span.mb-0 Definir el tipo de inspección a usar según el lote, sea normal estricta o reducida, además deben describirse las reglas en el caso necesario de los cambios generados por los resultados arrojados por la inspección.
                 li.mb-1
                   img(src='@/assets/curso/temas/t1/ico-list.svg')
-                  span.mb-0 Definir el Nivel Aceptable de Calidad (NAC) el cual depende del tamaño de la muestra y dependiendo de la características a inspeccionar puede ser diferente de un lote a otro, pero el NAC no puede ser superior a 10%.
+                  span.mb-0 Definir el Nivel Aceptable de Calidad (NAC) el cual depende del tamaño de la muestra y dependiendo de las características a inspeccionar puede ser diferente de un lote a otro, pero el NAC no puede ser superior a 10 %.
                 li.mb-1
                   img(src='@/assets/curso/temas/t1/ico-list.svg')
                   span.mb-0 Definir el nivel de inspección, si se utilizan los de tipo general: I, II o III; en el caso de muestras pequeñas para ensayos los S1, S2, S3 o S4.
@@ -921,8 +921,8 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col-12.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
-                      h4.mb-1 Ejemplo 1. Muestreo por atributos
-                      p.mb-0 Observe un ejemplo de aplicación de muestreo de lotes por atributos.
+                      h4.mb-1 Muestreo por atributos
+                      p.mb-0 Descargue un ejemplo de aplicación de muestreo de lotes por atributos.
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Ejemplo1_muestreo_por_atributos.docx')" target="_blank" type="application/pdf")
                         span Descargar 

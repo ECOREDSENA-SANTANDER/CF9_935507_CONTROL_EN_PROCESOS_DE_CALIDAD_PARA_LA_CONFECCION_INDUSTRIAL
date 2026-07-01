@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Procedimiento de inspecciones de calidad utilizando muestreo',
     Description:
-      'Utilización de herramientas estadísticas e informáticas para el adecuado análisis de los resultados obtenidos durante los procesos de inspección de calidad.',
+      'Bienvenido a este componente formativo, en el que aprenderás a aplicar procedimientos de inspección de calidad mediante muestreo, apoyados en herramientas estadísticas, informáticas y técnicas de manufactura esbelta para analizar resultados, tomar decisiones y fortalecer el control de calidad en procesos de confección industrial.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -149,9 +149,9 @@ export default {
       significado: 'tiempo requerido para producir una pieza o producto. ',
     },
     {
-      termino: 'WIP',
+      termino: '<em>WIP</em>',
       significado:
-        'cantidad de unidades en proceso, utilizando la herramienta kanban.',
+        'cantidad de unidades en proceso, utilizando la herramienta <em>kanban</em>.',
     },
   ],
   referencias: [
@@ -167,13 +167,11 @@ export default {
     },
     {
       referencia:
-        'Evans, J. y Lindsay, W. (2015). Administración y Control de la calidad (9ª ed.). Cengage.',
-      link: '',
+        'Evans, J., & Lindsay, W. (2015). Administración y control de la calidad (9.ª ed.). Cengage Learning.',
     },
     {
       referencia:
-        'Gómez, J. (2018). Guía para la aplicación de ISO 9001 2015 (1ª ed., Págs. 268 a 280). AENOR.',
-      link: '',
+        'Gómez, J. (2018). Guía para la aplicación de ISO 9001:2015 (1.ª ed., pp. 268-280). AENOR.',
     },
     {
       referencia:
@@ -192,18 +190,15 @@ export default {
     },
     {
       referencia:
-        'Pérez Marqués, M. (2016). Control de calidad técnicas y herramientas (1ª ed.,). México. Alfaomega grupo editor.',
-      link: '',
+        'Pérez Marqués, M. (2016). Control de calidad: Técnicas y herramientas (1.ª ed.). Alfaomega Grupo Editor.',
     },
     {
       referencia:
-        'Que es Kanban: definición, características y ventajas. (2020). ',
-      link: '',
+        '¿Qué es Kanban?: Definición, características y ventajas. (2020).',
     },
     {
       referencia:
-        'Rajadell Carreras, M., & Sánchez García, J. (2010). Lean manufacturing (1ª ed.,). Ediciones Diaz Santos.',
-      link: '',
+        'Rajadell Carreras, M., & Sánchez García, J. (2010). Lean manufacturing (1.ª ed.). Ediciones Díaz de Santos.',
     },
     {
       referencia: 'Rodó, P. (s.f.) Distribución normal.',
@@ -211,8 +206,7 @@ export default {
     },
     {
       referencia:
-        'Socconini, L. V. (2019). Lean Manufacturing: paso a paso. Marge Books.',
-      link: '',
+        'Socconini, L. V. (2019). Lean manufacturing: Paso a paso. Marge Books.',
     },
   ],
   creditos: [
@@ -290,12 +284,12 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: ' ',
+          nombre: 'Yineth Ibette Gonzalez Quintero',
           cargo: 'Validadora y vinculadora de recursos educativos digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: ' ',
+          nombre: 'Laura Paola Gelvez Manosalva',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },

@@ -20,7 +20,7 @@ export default {
       tema: 'Procedimiento de inspecciones de calidad utilizando muestreo',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión de los aprendices sobre los procedimientos de inspección de calidad con muestreo, la selección del tamaño de muestra, la aplicación de técnicas de manufactura esbelta como Heijunka, control visual, Kanban, Just in Time y Jidoka, así como el uso de normas técnicas, muestreo por variables y atributos, niveles de inspección, Nivel Aceptable de Calidad, curva de operación y documentación de los procedimientos para la toma de decisiones en la mejora de la calidad. ',
+        '<b> Objetivo:</b> evaluar la comprensión de los aprendices sobre los procedimientos de inspección de calidad con muestreo, la selección del tamaño de muestra, la aplicación de técnicas de manufactura esbelta como <em>Heijunka, control visual, Kanban, Just in Time y Jidoka</em>, así como el uso de normas técnicas, muestreo por variables y atributos, niveles de inspección, Nivel Aceptable de Calidad, curva de operación y documentación de los procedimientos para la toma de decisiones en la mejora de la calidad. ',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -105,9 +105,9 @@ export default {
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Jidoka.', esCorrecta: false },
-            { id: 'b', texto: 'Heijunka.', esCorrecta: true },
-            { id: 'c', texto: 'Poka Yoke.', esCorrecta: false },
+            { id: 'a', texto: '<em>Jidoka.</em>', esCorrecta: false },
+            { id: 'b', texto: '<em>Heijunka.</em>', esCorrecta: true },
+            { id: 'c', texto: '<em>Poka Yoke.</em>', esCorrecta: false },
             { id: 'd', texto: 'Diagrama de Pareto.', esCorrecta: false },
           ],
           mensaje_correcto:
@@ -154,7 +154,8 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué es Kanban en el contexto de la manufactura esbelta?',
+          texto:
+            '¿Qué es <em>Kanban</em> en el contexto de la manufactura esbelta?',
           imagen: require('@/assets/actividad/imagen5.png'),
           barajarRespuestas: true,
           opciones: [
@@ -190,7 +191,7 @@ export default {
         {
           id: 6,
           texto:
-            '¿Cuál es la diferencia entre Kanban de producción y Kanban de transporte?',
+            '¿Cuál es la diferencia entre <em>Kanban</em> de producción y <em>Kanban</em> de transporte?',
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
@@ -226,7 +227,8 @@ export default {
         },
         {
           id: 7,
-          texto: '¿Qué expresa el takt time en una empresa de confección?',
+          texto:
+            '¿Qué expresa el <em>takt time</em> en una empresa de confección?',
           imagen: require('@/assets/actividad/imagen7.png'),
           barajarRespuestas: true,
           opciones: [
@@ -262,7 +264,7 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál característica corresponde al sistema Pull dentro del Just in Time?',
+            '¿Cuál característica corresponde al sistema <em>Pull</em> dentro del <em>Just in Time</em>?',
           imagen: require('@/assets/actividad/imagen8.png'),
           barajarRespuestas: true,
           opciones: [
@@ -326,7 +328,8 @@ export default {
         },
         {
           id: 10,
-          texto: '¿Qué significa Jidoka en los procesos de confección?',
+          texto:
+            '¿Qué significa <em>Jidoka</em> en los procesos de confección?',
           imagen: require('@/assets/actividad/imagen10.png'),
           barajarRespuestas: true,
           opciones: [
@@ -361,7 +364,8 @@ export default {
         },
         {
           id: 11,
-          texto: '¿Qué indica una luz roja en el sistema de alerta ANDON?',
+          texto:
+            '¿Qué indica una luz roja en el sistema de alerta <em>ANDON</em>?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -613,7 +617,7 @@ export default {
             {
               id: 'c',
               texto:
-                'La cantidad de tarjetas Kanban disponibles en el tablero.',
+                'La cantidad de tarjetas <em>Kanban</em> disponibles en el tablero.',
               esCorrecta: false,
             },
             {
