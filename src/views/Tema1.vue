@@ -928,7 +928,7 @@
                         span Descargar 
                         i.fas.fa-file-download
 
-    p.mb-4 Una vez se establezca el procedimiento de los muestreos este debe estar documentado en un documento cuyo formato esté previamente definido, los cuales junto con los demás procedimientos forman parte del manual de calidad de la empresa, y se constituyen en la información para controlar los procesos y se debe garantizar su custodia y disponibilidad.
+    p Una vez se establezca el procedimiento de los muestreos este debe estar documentado en un documento cuyo formato esté previamente definido, los cuales junto con los demás procedimientos forman parte del manual de calidad de la empresa, y se constituyen en la información para controlar los procesos y se debe garantizar su custodia y disponibilidad.
 
 
 </template>
