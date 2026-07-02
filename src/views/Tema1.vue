@@ -146,7 +146,7 @@
             img(src='@/assets/curso/temas/t1/12.svg', alt='')
           .col-lg-10
             p.mb-0 Es un sistema de programación y control que sincroniza la producción basándose en el uso de tarjetas, consiste en colocar las tarjetas en cada contenedor de los materiales o piezas que describe su cantidad, cada proceso a medida de su sincronización va retirando los materiales que requiera, para llegar a su ensamble final; es una herramienta que asegura alta calidad y la producción en el tiempo adecuado.
-        p Además, se pueden utilizar las tarjetas en los tableros, llamados “tableros Kanban”, en los cuales se visualiza de manera fácil el flujo de trabajo pues se organizan las actividades de producción, facilitando el seguimiento de los avances de cada proceso y la respuesta de las personas responsables.
+        p Además, se pueden utilizar las tarjetas en los tableros, llamados “tableros #[em Kanban]”, en los cuales se visualiza de manera fácil el flujo de trabajo pues se organizan las actividades de producción, facilitando el seguimiento de los avances de cada proceso y la respuesta de las personas responsables.
         p Para comprender mejor esta dinámica, en el siguiente esquema se ilustra cómo interactúan estos elementos en el flujo de trabajo.
 
     .row.justify-content-center.mb-5(data-aos='fade-down')
@@ -377,12 +377,12 @@
               img(src='@/assets/curso/temas/t1/ico-list.svg')
               span.mb-0 Se oprime el botón de alerta #[em ANDON] para detener el proceso. Teniendo en cuenta el color de la alerta se actúa en concordancia, cuando el botón es verde la actividad es óptima, cuando el color es amarillo es una alerta en donde se debe realizar alguna corrección en las piezas, el inspector debe coordinar la acción, debido a que el proceso entra en demora, así mismo el responsable de la operación debe comunicar cuando se presente algún problema de manera temprana; y si es luz roja se detiene completamente la línea de producción, en donde todos los integrantes del equipo deben encontrar la solución factible.
 
-    p.mb-4 A continuación, se pueden observar las 10 fases para la aplicación de la técnica de #[em Jidōka]x:
+    p.mb-4 A continuación, se pueden observar las 10 fases para la aplicación de la técnica de #[em Jidōka]:
 
     .mb-5(data-aos='fade-down')
       .titulo-sexto.color-secundario.mb-3
         h5 Tabla 1.
-        span 10 etapas de automatización #[em Jidōka]x
+        span 10 etapas de automatización #[em Jidōka]
       .tabla-a.tabla1.color-secundario
         table
           thead
@@ -635,7 +635,7 @@
                 td Operan y gestionan.	
                 td Se implementan.
 
-    .row.bgcolor-1.align-items-center.p-3.p-md-4(data-aos="fade-down")
+    .row.bgcolor-1.align-items-center.p-3.p-md-4
       .col-lg-12.col-12.px-lg-4
         .row.justify-content-center.align-items-center
 
@@ -780,7 +780,7 @@
       .col-lg-5.d-none.d-lg-block.ps-lg-0
         img(src='@/assets/curso/temas/t1/32.png', alt='')
 
-    .row.bgcolor-1.align-items-center.p-3.p-md-4(data-aos="fade-down")
+    .row.bgcolor-1.align-items-center.p-3.p-md-4
       .col-lg-12.col-12.px-lg-4
         .row.justify-content-center.align-items-center
 
@@ -792,7 +792,7 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col-12.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
-                      h4.mb-1 Ejemplo1. Muestreo por variables
+                      h4.mb-1 Ejemplo 1. Muestreo por variables
                       p.mb-0 Descargue un ejemplo de aplicación de muestreo de lotes por variables.
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Ejemplo1_muestreo_por_variables.docx')" target="_blank" type="application/pdf")
@@ -909,7 +909,7 @@
                   img(src='@/assets/curso/temas/t1/ico-list.svg')
                   span.mb-0 Presentación de resultados.
 
-    .row.bgcolor-1.align-items-center.p-3.p-md-4.mb-4(data-aos="fade-down")
+    .row.bgcolor-1.align-items-center.p-3.p-md-4.mb-4
       .col-lg-12.col-12.px-lg-4
         .row.justify-content-center.align-items-center
 
@@ -921,7 +921,7 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col-12.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
-                      h4.mb-1 Muestreo por atributos
+                      h4.mb-1 Ejemplo 1. Muestreo por atributos
                       p.mb-0 Descargue un ejemplo de aplicación de muestreo de lotes por atributos.
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Ejemplo1_muestreo_por_atributos.docx')" target="_blank" type="application/pdf")
