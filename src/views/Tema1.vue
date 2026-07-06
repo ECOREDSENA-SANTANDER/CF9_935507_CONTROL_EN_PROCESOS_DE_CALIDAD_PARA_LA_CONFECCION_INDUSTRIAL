@@ -358,7 +358,7 @@
       .bloque-texto-g__img(i
         :style="{'background-image':`url(${require('@/assets/curso/temas/t1/21.png')})`}")
       .bloque-texto-g__texto.p-4
-        p Es un término japonés que significa automatización con un toque humano o también llamado autonomación, define un sistema de control autónomo para que los procesos tengan autocontrol de calidad, de allí que cuando se presente un problema de manera automática o manual el proceso se detiene para que no se sigan produciendo piezas defectuosas, y se reanuda una vez se dé solución al problema para producir sin defectos y así se evite pasar al proceso siguiente.
+        p Es un término japonés que significa automatización con un toque humano o también llamado autonomación, define un sistema de control autónomo para que los procesos tengan autocontrol de calidad, de allí que cuando se presente un problema de manera automática o manual el proceso se detiene para que no se sigan produciendo piezas defectuosas, y se reanuda una vez se dé solución al problema para producir sin defectos y así se evite pasar al proceso siguiente. #[br]
         p.mb-0 Con el uso de esta técnica se replantea el enfoque de la inspección, porque se centra en la prevención de los defectos y controlar los procesos, produciendo las piezas exactas sin unidades adicionales, disminuyendo los desperdicios de sobreproducción.
 
     .row.justify-content-center.mb-4(data-aos="fade")
@@ -538,7 +538,7 @@
               td.fw-bold NTC 2062-1	
               td Términos estadísticos generales.
 
-    p.mb-4 Las normas mencionadas en la tabla anterior son algunas con las cuales se tiene en cuenta para definir las características a inspeccionar, y junto con el listado de defectos establecido se concluye cuales son los niveles de aceptación de calidad. Para la industria de la manufactura de confección se recomienda tener en cuenta los siguientes factores para los puntos de la inspección:
+    p.mb-4 Las normas mencionadas en la tabla anterior son algunas con las cuales se tiene en cuenta para definir las características a inspeccionar, y junto con el listado de defectos establecido se concluye cuales son los niveles de aceptación de calidad. 
 
     .row.justify-content-center.mb-4
       .col-lg-5.d-none.d-lg-block(data-aos="fade-right")
@@ -871,7 +871,7 @@
               ul.lista-ul.fa-lista.list-ico.mb-0
                 li.mb-1
                   img(src='@/assets/curso/temas/t1/ico-list.svg')
-                  span.mb-0 Los lotes, conformados por las unidades de los productos cuyas características deben ser las mismas lo cual genera homogeneidad y garantiza la evaluación de calidad. A su vez el tamaños de lotes, definiendo las unidades de los productos del lote.
+                  span.mb-0 Los lotes, conformados por las unidades de los productos cuyas características deben ser las mismas lo cual genera homogeneidad y garantiza la evaluación de calidad. A su vez el tamaño de lotes, definiendo las unidades de los productos del lote.
                 li.mb-1
                   img(src='@/assets/curso/temas/t1/ico-list.svg')
                   span.mb-0 Definir el plan de muestreo teniendo en cuenta la muestra, su tamaño y los criterios de aceptación, así como los programas y sistema de muestreo. El tamaño de la muestra debe ser conforme el uso de las tablas de la Norma ISO 2859-1.

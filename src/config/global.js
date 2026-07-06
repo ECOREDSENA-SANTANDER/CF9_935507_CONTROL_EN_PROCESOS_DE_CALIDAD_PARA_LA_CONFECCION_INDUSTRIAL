@@ -106,7 +106,7 @@ export default {
   ],*/
   glosario: [
     {
-      termino: 'Andon',
+      termino: '<em>Andon</em>',
       significado:
         'señal de alerta que se activa al parar una línea de producción.',
     },
@@ -289,7 +289,7 @@ export default {
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
-          nombre: 'Laura Paola Gelvez Manosalva',
+          nombre: 'Sandra Liliana Cristancho Cruz',
           cargo: 'Evaluadora de contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
