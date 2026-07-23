@@ -20,7 +20,7 @@ export default {
       tema: 'Procedimiento de inspecciones de calidad utilizando muestreo',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> evaluar la comprensión de los aprendices sobre los procedimientos de inspección de calidad con muestreo, la selección del tamaño de muestra, la aplicación de técnicas de manufactura esbelta como <em>Heijunka, control visual, Kanban, Just in Time y Jidoka</em>, así como el uso de normas técnicas, muestreo por variables y atributos, niveles de inspección, Nivel Aceptable de Calidad, curva de operación y documentación de los procedimientos para la toma de decisiones en la mejora de la calidad. ',
+        '<b> Objetivo:</b> evaluar la comprensión de los aprendices sobre los procedimientos de inspección de calidad con muestreo, la selección del tamaño de muestra, la aplicación de técnicas de manufactura esbelta como <em>Heijunka, control visual, Kanban, Just in Time y Jidoka</em>, así como el uso de normas técnicas, muestreo por variables y atributos, niveles de inspección, nivel aceptable de calidad, curva de operación y documentación de los procedimientos para la toma de decisiones en la mejora de la calidad. ',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',

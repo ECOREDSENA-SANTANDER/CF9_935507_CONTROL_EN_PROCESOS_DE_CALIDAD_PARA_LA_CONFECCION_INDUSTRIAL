@@ -37,7 +37,7 @@
           .col-lg-2.d-none.d-lg-block
             img(src='@/assets/curso/temas/t1/5.svg', alt='')
           .col-lg-10
-            p.mb-0 Es necesario recalcar la elección del tamaño de la muestra, el cual es de especial atención, porque debe garantizar la representación del lote, pues una muestra pequeña puede ser insuficiente para aceptar o rechazar un lote o una muestra grande dificulta la eficacia de la medición.
+            p.mb-0 Es necesario recalcar la elección del tamaño de la muestra, el cual es de especial atención, porque debe garantizar la representación del lote, pues una muestra pequeña puede ser insuficiente para aceptar o rechazar un lote mientras que una muestra grande dificulta la eficacia de la medición. 
         p Para elegir el tamaño de la muestra es necesario tener en cuenta el plazo de entrega de la producción, la duración de la inspección, la disponibilidad de los productos y los costos unitarios del producto.
         p Antes de examinar el producto hay que considerar que el procedimiento tiene en cuenta técnicas de Manufactura Esbelta que apoyan la gestión de calidad de una planta, como son: #[em Heijunka], Control visual, #[em Kanban], #[em Just in Time (JIT)] o Justo a Tiempo, #[em Jidoka], entre otras y las cuales ayudan al control de la variabilidad de los procesos.
 
@@ -48,7 +48,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="fade-right")
         p Es la técnica para planificar y nivelar los pedidos teniendo en cuenta la cantidad y la variedad de productos de cada pedido. Es necesario conocer la demanda, aplicar la estandarización del producto y el proceso con el fin de establecer el manejo de lotes pequeños o utilizar un lote único para mantener una producción continua y nivelada.
-        p Para aplicar esta técnica se utilizan células de trabajo las cuales le caracterizan por ser flexibles, las cuales se unen para obtener una célula de trabajo conjunta en donde los procesos van coordinados para conseguir el producto planificado.
+        p Para aplicar esta técnica se utilizan células de trabajo las cuales se caracterizan por ser flexibles, éstas se unen para obtener una célula de trabajo conjunta en donde los procesos van coordinados para conseguir el producto planificado. 
         p Las células o módulos de producción son pequeñas empresas dentro de la planta, las cuales se crean teniendo en cuenta lo siguiente:
         .bg-compl1.p-4   
           ul.lista-ul.fa-lista.list-ico.mb-0
@@ -116,7 +116,7 @@
                 span.mb-0 Tableros de gestión visual, los cuales brindan un contexto de la situación a analizar.
               li.mb-1
                 img(src='@/assets/curso/temas/t1/ico-list2.svg')
-                span.mb-0 Señales de monitorización de máquinas: Por ejemplo, identificar la necesidad de mantenimiento.
+                span.mb-0 Señales de monitorización de máquinas: por ejemplo, identificar la necesidad de mantenimiento.
               li.mb-1
                 img(src='@/assets/curso/temas/t1/ico-list2.svg')
                 span.mb-0 Control estadístico del proceso con la aplicación de las herramientas de calidad, las cuales se publican en lugares visibles de la empresa.
@@ -179,7 +179,7 @@
       .col-lg-1.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/13.svg', alt='')
       .col-lg-11(data-aos="fade-left")
-        p.mb-0 Su filosofía consiste en producir según las necesidades del cliente en cuanto al tiempo y la cantidad eliminando los desperdicios relacionados en la línea de producción. El método justo a tiempo se caracteriza por producir al ritmo del #[em Takt Time], trabajar de manera estandarizada y utilizar el flujo de una pieza para detectar de manera temprana los errores y no en la inspección por muestreo.
+        p.mb-0 Su filosofía consiste en producir según las necesidades del cliente en cuanto al tiempo y la cantidad eliminando los desperdicios relacionados en la línea de producción. El método justo a tiempo se caracteriza por producir al ritmo del #[em Takt time], trabajar de manera estandarizada y utilizar el flujo de una pieza para detectar de manera temprana los errores y no en la inspección por muestreo.
 
     .row.justify-content-center.mb-5
       .col-lg-3.d-none.d-lg-block
@@ -189,17 +189,17 @@
       .col-lg-5
         .bg-color-secundario.py-4.h-100
           .subt3.mb-4
-            h4.mb-0.pe-5 #[em Takt Time]
+            h4.mb-0.pe-5 #[em Takt time]
           .px-4
             p.text-white Conocido como los latidos del negocio, se calcula para sincronizar el ritmo de lo que se produce y lo que se vende, con el fin de cumplir al cliente, este es una de las quejas recurrentes del sector de confecciones, relacionado con el manejo del tiempo en las plantas de producción.
             .bg10.p-4
               .formula.mx-auto
-                span.label #[em Takt Time] (T / T) = 
+                span.label #[em Takt time] (T / T) = 
                 .fraction
                   .top.px-1.px-lg-3 (Tiempo disponible)
                   .bottom.px-1.px-lg-3 (Demanda del cliente)
 
-    p.mb-5 El #[em Takt Time], es la frecuencia con la que se fabrica una pieza o producto en función del ritmo de las ventas con el fin de satisfacer las necesidades del cliente. Es importante hacer la diferencia con el tiempo de ciclo porque el #[em takt time] es determinado por el cliente y el tiempo de ciclo es definido por la empresa. Es por lo anterior que las empresas deben tener un tiempo de ciclo menor al #[em takt time], de allí el problema de incumplimiento de los pedidos y las necesidades de horas y turnos extras en las empresas sobre todo en lo que se llama la temporada alta del año.
+    p.mb-5 El #[em Takt time], es la frecuencia con la que se fabrica una pieza o producto en función del ritmo de las ventas con el fin de satisfacer las necesidades del cliente. Es importante hacer la diferencia con el tiempo de ciclo porque el #[em takt time] es determinado por el cliente y el tiempo de ciclo es definido por la empresa. Es por lo anterior que las empresas deben tener un tiempo de ciclo menor al #[em takt time], de allí el problema de incumplimiento de los pedidos y las necesidades de horas y turnos extras en las empresas sobre todo en lo que se llama la temporada alta del año.
 
     h5.mb-4 En el siguiente ejemplo se puede observar el cálculo del #[em takt time]:
 
@@ -207,17 +207,17 @@
       .col-lg-5.d-none.d-lg-block(data-aos="fade-right")
         img(src='@/assets/curso/temas/t1/16.png', alt='')
       .col-lg-7(data-aos="fade-left")
-        p Una empresa de confección de pijamas tiene un pedido de 1000 unidades para entregar en 12 horas. En primer lugar se convierten las horas disponibles a segundos (43200 segundos). Luego se aplica la fórmula:
+        p Una empresa de confección de pijamas tiene un pedido de 1000 unidades para entregar en 12 horas. En primer lugar, se convierten las horas disponibles a segundos (43200 segundos). Luego se aplica la fórmula:
         .bg9.p-4.px-lg-5.mb-4
           .bg10.p-4.mb-3
             .formula.mx-auto
-              span.label #[em Takt Time] (T / T) = 
+              span.label #[em Takt time] (T / T) = 
               .fraction
                 .top.px-1.px-lg-3 43200 seg.
                 .bottom.px-1.px-lg-3 1000 und.
           .bg10.p-4
             .formula.mx-auto
-              span.label #[em Takt Time] (T / T) = 43.2 seg.
+              span.label #[em Takt time] (T / T) = 43.2 seg.
         p Es decir, se debe producir una pijama cada 43,2 segundos.
 
     h5.mb-4 La metodología del JIT incluye el sistema #[em push and pull]:
@@ -313,7 +313,7 @@
         .col-lg-1.d-none.d-lg-block
           img(src="@/assets/curso/temas/t1/19.svg", alt='')
         .col-lg-11 
-          p.mb-0 El trabajo estandarizado disminuye los desperdicios, se identifica el trabajo en proceso, ayuda en el cálculo de requerimiento de mano de obra, para atender los pedidos, apoya la administración visual del trabajo en procesos y los defectos que se presenten en ellos. Las herramientas de control estadístico apoyan la estandarización de los procesos, por eso son fundamentales en el desarrollo y aplicación de las metodologías de la manufactura esbelta.
+          p.mb-0 El trabajo estandarizado disminuye los desperdicios, se identifica el trabajo en proceso, ayuda en el cálculo de requerimiento de mano de obra, para atender los pedidos, apoya la administración visual del trabajo en proceso y los defectos que se presenten en ellos. Las herramientas de control estadístico apoyan la estandarización de los procesos, por eso son fundamentales en el desarrollo y aplicación de las metodologías de la manufactura esbelta.
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
@@ -352,7 +352,7 @@
 
     .subt.mb-4(data-aos="fade-right")
       img(src='@/assets/curso/temas/t1/subt.svg', alt='')
-      h3.mb-0 #[em Jidōka]
+      h3.mb-0 #[em Jidoka]
 
     .bloque-texto-g.bloque-texto-g--inverso.bg5.br-tl.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade")
       .bloque-texto-g__img(i
@@ -377,12 +377,12 @@
               img(src='@/assets/curso/temas/t1/ico-list.svg')
               span.mb-0 Se oprime el botón de alerta #[em ANDON] para detener el proceso. Teniendo en cuenta el color de la alerta se actúa en concordancia, cuando el botón es verde la actividad es óptima, cuando el color es amarillo es una alerta en donde se debe realizar alguna corrección en las piezas, el inspector debe coordinar la acción, debido a que el proceso entra en demora, así mismo el responsable de la operación debe comunicar cuando se presente algún problema de manera temprana; y si es luz roja se detiene completamente la línea de producción, en donde todos los integrantes del equipo deben encontrar la solución factible.
 
-    p.mb-4 A continuación, se pueden observar las 10 fases para la aplicación de la técnica de #[em Jidōka]:
+    p.mb-4 A continuación, se pueden observar las 10 fases para la aplicación de la técnica de #[em Jidoka]:
 
     .mb-5(data-aos='fade-down')
       .titulo-sexto.color-secundario.mb-3
         h5 Tabla 1.
-        span 10 etapas de automatización #[em Jidōka]
+        span 10 etapas de automatización #[em Jidoka]
       .tabla-a.tabla1.color-secundario
         table
           thead
@@ -410,7 +410,7 @@
             tr
               td.fw-bold.text-center 4
               td Automatización de paradas.
-              td El proceso se detiene de manera automática sin la Intervención del coequipero.
+              td El proceso se detiene de manera automática sin la intervención del coequipero.
               td El sistema de empaque se detiene de manera automática al no tener artículos para empacar.
             tr
               td.fw-bold.text-center 5
@@ -419,9 +419,9 @@
               td La máquina vuelve a iniciar el proceso en operaciones de planchado.
             tr
               td.fw-bold.text-center 6
-              td La máquina vuelve a iniciar el proceso en operaciones de planchado.
-              td La pieza es retirada automáticamente sin afectar la secuencia en la siguiente pieza.
-              td Una pieza que no quedó con un encaje en uno de sus puños es retirada, y sigue operando con la siguiente pieza.
+              td Automatización del retiro de piezas. 
+              td La pieza defectuosa se retira automáticamente sin interrumpir la continuidad del proceso.
+              td Una pieza que presenta un defecto en el encaje de uno de sus puños se retira automáticamente y el proceso continúa con la siguiente pieza. 
             tr
               td.fw-bold.text-center 7
               td Mecanismo anti-error: #[em POKA YOKE].
@@ -434,7 +434,7 @@
               td En el proceso de lavandería se carga la máquina y detecta errores y se detiene.
             tr
               td.fw-bold.text-center 9
-              td Autonomación de Inicio.
+              td Autonomación de inicio.
               td La máquina puede iniciar a procesar la pieza de manera automática.
               td Inicio de procesos de bordado.
             tr
@@ -443,7 +443,7 @@
               td La máquina realiza operaciones de enlace entre una y otra operación.
               td Transporte por medio de bandas entre uno y otro puesto de trabajo.
 
-    p.mb-4 Antes de examinar los procedimientos, se tienen en cuenta las diferentes Normas técnicas Colombianas relacionadas, las cuales se debe aplicar dependiendo de la línea de producto, los insumos, los textiles y se incluyen las normas relacionadas con el control estadístico de calidad.
+    p.mb-4 Antes de examinar los procedimientos, se tienen en cuenta las diferentes normas técnicas colombianas relacionadas, las cuales se deben aplicar dependiendo de la línea de producto, los insumos, los textiles y se incluyen las normas relacionadas con el control estadístico de calidad.
 
     .mb-4(data-aos='fade-down')
       .titulo-sexto.color-secundario.mb-3
@@ -461,7 +461,7 @@
               td Prendas interiores femeninas.
             tr
               td.fw-bold NTC 2260	
-              td Pantalones tipo Jean y otros pantalones.
+              td Pantalones tipo jean y otros pantalones.
             tr
               td.fw-bold NTC 340	
               td Rotulado de textiles y confecciones.
@@ -592,20 +592,20 @@
               img(src='@/assets/curso/temas/t1/ico-list2.svg')
               span.mb-0 Obligación de detener el proceso si es el caso para no seguir, hasta que sea resuelto el problema.
 
-    p.mb-4 También es necesario realizar la planeación para tener cero defectos, teniendo en cuenta la utilización de cualquier herramienta de calidad en todos los recursos de la empresa como son: mano de obra, materiales, métodos, máquinas e información, la metodología #[em Lean manufacturing] tiene como fin que no se presenten defectos en los productos; Para la estandarización del trabajo, la metodología #[em Lean manufacturing] establece el siguiente esquema de acciones de mejora:
-
+    p.mb-4 También es necesario planear acciones orientadas a prevenir defectos mediante herramientas de calidad aplicadas a los recursos de la empresa: mano de obra, materiales, métodos, máquinas e información. La manufactura esbelta busca reducir desperdicios, prevenir defectos y mejorar los procesos. Para estandarizar el trabajo, se presenta el siguiente esquema de acciones de mejora: 
+    
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-lg-8
         .titulo-sexto.color-secundario.mb-3
           h5 Figura 3. 
-          span Acciones de mejora, metodología #[em Lean manufacturing]
+          span Acciones de mejora en la manufactura esbelta
         figure
           img(src='@/assets/curso/temas/t1/fig3.svg', alt='Esquema metodológico que estructura la aplicación de la producción esbelta a partir de las 5S. Define acciones clave organizadas en cinco pilares operativos de la planta: mano de obra (capacitación), información (control visual), materiales (inspección), máquinas (mantenimiento y sistemas anti-error) y método (flujo y estandarización).')
 
     p.mb-4 Es importante tener clara la diferencia entre el proceso y procedimiento:
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-7
+      .col-lg-8
         .titulo-sexto.color-secundario.mb-3
           h5 Tabla 3.
           span Diferencia entre el proceso y procedimiento
@@ -617,8 +617,8 @@
                 th Procedimiento
             tbody
               tr
-                td Tienen etapas.	
-                td Tienen pasos o tareas.
+                td Tiene etapas.	
+                td Tiene pasos o tareas.
               tr
                 td Cumple un objetivo común.	
                 td Cumple objetivos específicos.
@@ -650,7 +650,7 @@
                       h4.mb-1 Plantilla de procedimiento
                       p.mb-0 Descargue un ejemplo del documento que registra los procedimientos y su estructura.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Plantilla_Procedimiento.docx')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Plantilla_Procedimiento.docx')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download 
 
@@ -707,7 +707,7 @@
 
     p.mb-4 El análisis de la aplicación del muestreo por variables comprende distintos factores técnicos, los cuales se detallan en la siguiente recopilación de ventajas y desventajas:
 
-    .row.justify-content-center.mb-5(data-aos="fade-down")
+    .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-lg-7
         .titulo-sexto.color-secundario.mb-3
           h5 Tabla 4.
@@ -721,15 +721,15 @@
             tbody
               tr
                 td Uso de muestras pequeñas.
-                td Solo aplica a una característica.
+                td Solo se aplica a una característica.
               tr
-                td Se valora el cumplimiento o no de una especificación otorgada.
-                td Se asume que la variable tiene una distribución normal, lo cual puede ser diferente y debe ser verificado.
+                td Se valora el cumplimiento o incumplimiento de una especificación establecida.
+                td Se asume que la variable presenta una distribución normal; esta condición debe verificarse.
               tr
-                td Facilidad para detectar los errores de medición.
-                td Implica mayores costos por el personal calificado y los dispositivos de medición.
+                td Facilita la detección de errores de medición.
+                td Implica mayores costos por la contratación de personal calificado y el uso de dispositivos de medición.
               tr
-                td Aporta mejor sustento para la toma de decisiones.
+                td Aporta mayor sustento para la toma de decisiones.
                 td Requiere mayor tiempo para registrar, tabular y analizar los datos obtenidos.
 
     p Para realizar el procedimiento se debe tener definido:
@@ -795,7 +795,7 @@
                       h4.mb-1 Ejemplo 1. Muestreo por variables
                       p.mb-0 Descargue un ejemplo de aplicación de muestreo de lotes por variables.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Ejemplo1_muestreo_por_variables.docx')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Ejemplo1_muestreo_por_variables.docx')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 
@@ -808,7 +808,7 @@
       .bloque-texto-g__img(i
         :style="{'background-image':`url(${require('@/assets/curso/temas/t1/33.png')})`}")
       .bloque-texto-g__texto.p-4
-        p Los atributos no pueden ser representados por una cifra, solo pueden ser inspeccionados de manera visual. Es importante tener definidos los defectos, las cantidades y niveles, para así determinar, cuándo la prenda es rechazada y cuando es aceptada. El procedimiento se desarrolla de manera igual a la inspección realizada por variables. #[br] #[br]
+        p Los atributos no pueden ser representados por una cifra, solo pueden ser inspeccionados de manera visual. Es importante tener definidos los defectos, las cantidades y niveles, para así determinar, cuándo la prenda es rechazada y cuándo es aceptada. El procedimiento se desarrolla de manera igual a la inspección realizada por variables. #[br] #[br]
         p.mb-0 Es importante asegurar por métodos estadísticos, basados en modelos de probabilidad que el comportamiento de la muestra es igual al lote, en cuyo caso se utilizan las curvas de operación llamadas Curva OP, para tomar decisiones en el lote.
 
     .row.justify-content-center.align-items-center.mb-5
@@ -874,7 +874,7 @@
                   span.mb-0 Los lotes, conformados por las unidades de los productos cuyas características deben ser las mismas lo cual genera homogeneidad y garantiza la evaluación de calidad. A su vez el tamaño de lotes, definiendo las unidades de los productos del lote.
                 li.mb-1
                   img(src='@/assets/curso/temas/t1/ico-list.svg')
-                  span.mb-0 Definir el plan de muestreo teniendo en cuenta la muestra, su tamaño y los criterios de aceptación, así como los programas y sistema de muestreo. El tamaño de la muestra debe ser conforme el uso de las tablas de la Norma ISO 2859-1.
+                  span.mb-0 Definir el plan de muestreo teniendo en cuenta la muestra, su tamaño y los criterios de aceptación, así como los programas y sistema de muestreo. El tamaño de la muestra debe ser conforme al uso de las tablas de la Norma ISO 2859-1.
                 li.mb-1
                   img(src='@/assets/curso/temas/t1/ico-list.svg')
                   span.mb-0 Realizar la inspección de cada prenda que conforma la muestra.
@@ -898,13 +898,13 @@
                   span.mb-0 Se recolectan los datos y se tabula la información en las tablas de frecuencias.
                 li.mb-1
                   img(src='@/assets/curso/temas/t1/ico-list.svg')
-                  span.mb-0 Se desarrollan gráficos de histograma, grafico de control entre otras herramientas estadísticas.
+                  span.mb-0 Se desarrollan gráficos de histograma, gráfico de control entre otras herramientas estadísticas.
                 li.mb-1
                   img(src='@/assets/curso/temas/t1/ico-list.svg')
                   span.mb-0 Se desarrolla curva de operación.
                 li.mb-1
                   img(src='@/assets/curso/temas/t1/ico-list.svg')
-                  span.mb-0 Análisis de los datos
+                  span.mb-0 Análisis de los datos.
                 li.mb-0
                   img(src='@/assets/curso/temas/t1/ico-list.svg')
                   span.mb-0 Presentación de resultados.
@@ -921,10 +921,10 @@
                 .col
                   .row.justify-content-between.align-items-center
                     .col-12.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
-                      h4.mb-1 Ejemplo 1. Muestreo por atributos
+                      h4.mb-1 Ejemplo 2. Muestreo por atributos
                       p.mb-0 Descargue un ejemplo de aplicación de muestreo de lotes por atributos.
                     .col.col-lg-2.mb-3.mb-sm-0
-                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Ejemplo1_muestreo_por_atributos.docx')" target="_blank" type="application/pdf")
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Ejemplo2_muestreo_por_atributos.docx')" target="_blank" type="application/pdf")
                         span Descargar 
                         i.fas.fa-file-download
 

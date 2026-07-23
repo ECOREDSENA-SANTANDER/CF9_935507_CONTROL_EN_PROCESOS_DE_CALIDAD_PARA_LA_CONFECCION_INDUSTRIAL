@@ -2,7 +2,7 @@ export default {
   global: {
     Name: 'Procedimiento de inspecciones de calidad utilizando muestreo',
     Description:
-      'Bienvenido a este componente formativo, en el que aprenderás a aplicar procedimientos de inspección de calidad mediante muestreo, apoyados en herramientas estadísticas, informáticas y técnicas de manufactura esbelta para analizar resultados, tomar decisiones y fortalecer el control de calidad en procesos de confección industrial.',
+      'Bienvenido a este componente formativo, en el que aprenderá a aplicar procedimientos de inspección de calidad mediante muestreo, apoyados en herramientas estadísticas, informáticas y técnicas de manufactura esbelta para analizar resultados, tomar decisiones y fortalecer el control de calidad en procesos de confección industrial.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -142,7 +142,7 @@ export default {
     {
       termino: 'Sistema de muestreo',
       significado:
-        'conjunto de planes o programas de muestreo que se interrelación entre sí.',
+        'conjunto de planes o programas de muestreo que se interrelacionan entre sí.',
     },
     {
       termino: 'Tiempo de ciclo',
@@ -157,36 +157,35 @@ export default {
   referencias: [
     {
       referencia:
-        'Definición de Jidoka: Control automático de defectos. (2020).',
-      link: '',
+        'Duque de Serna, F. (1990). Procedimientos para el control de la calidad. Servicio Nacional de Aprendizaje (SENA).',
     },
     {
       referencia:
-        'Duque de Serna, F. (1990). Procedimientos para el control de la calidad. Servicio Nacional de Aprendizaje (SENA). ',
-      link: '',
+        'Evans, J. R., & Lindsay, W. M. (2015). Administración y control de la calidad (9.ª ed.). Cengage Learning.',
     },
     {
       referencia:
-        'Evans, J., & Lindsay, W. (2015). Administración y control de la calidad (9.ª ed.). Cengage Learning.',
+        'Gómez, J. (2018). Guía para la aplicación de ISO 9001:2015 (1.ª ed.). AENOR.',
     },
     {
       referencia:
-        'Gómez, J. (2018). Guía para la aplicación de ISO 9001:2015 (1.ª ed., pp. 268-280). AENOR.',
+        'Gutiérrez Pulido, H. (2013). Control estadístico de la calidad y Seis Sigma (3.ª ed.). McGraw-Hill Interamericana.',
     },
     {
       referencia:
-        'Gutiérrez Pulido, H. (2013). Control estadístico de la calidad y Seis Sigma (3ª ed.). McGraw-Hill Interamericana.',
-      link: '',
+        'Hay, E., & Cárdenas, M. (2003). Justo a tiempo: La técnica japonesa que genera mayor ventaja competitiva. Editorial Norma.',
     },
     {
       referencia:
-        'Hay, E., & Cárdenas, M. (2003). Justo a tiempo la técnica japonesa que genera mayor ventaja competitiva. Editorial Norma.',
-      link: '',
+        'Lean Manufacturing 10. (s. f.). Heijunka: cómo nivelar la producción con lean manufacturing. ',
     },
     {
       referencia:
-        'Heijunka: Cómo nivelar la producción con lean manufacturing. (2020).',
-      link: '',
+        'Naydenov, P. (s. f.). ¿Qué es Kanban? Explicación para principiantes. Businessmap. ',
+    },
+    {
+      referencia:
+        'Pérez Herrera, J. F. (2020, 11 de agosto). Definición de Jidoka: control automático de defectos. Lean Construction México. ',
     },
     {
       referencia:
@@ -194,15 +193,11 @@ export default {
     },
     {
       referencia:
-        '¿Qué es Kanban?: Definición, características y ventajas. (2020).',
-    },
-    {
-      referencia:
         'Rajadell Carreras, M., & Sánchez García, J. (2010). Lean manufacturing (1.ª ed.). Ediciones Díaz de Santos.',
     },
     {
-      referencia: 'Rodó, P. (s.f.) Distribución normal.',
-      link: '',
+      referencia:
+        'Rodó, P. (2019, 10 de noviembre). Distribución normal: qué es, cómo se calcula y ejemplos. Economipedia. ',
     },
     {
       referencia:
@@ -244,19 +239,19 @@ export default {
         {
           nombre: 'Vilma Lucía Perilla Méndez',
           cargo: ' Diseñadora instruccional',
-          centro: 'Centro de Gestión Empresarial - Regional Distrito Capital',
+          centro: 'Centro de Gestión Industrial - Regional Distrito Capital',
         },
         {
           nombre: 'Oscar Andrés Fernández Urrego',
           cargo: ' Evaluador instruccional',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica - Cenigraf - Regional Bogotá',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
         },
         {
           nombre: 'Julieth Paola Vital López',
           cargo: 'Corrección de estilo',
           centro:
-            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital',
+            'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital.',
         },
       ],
     },
