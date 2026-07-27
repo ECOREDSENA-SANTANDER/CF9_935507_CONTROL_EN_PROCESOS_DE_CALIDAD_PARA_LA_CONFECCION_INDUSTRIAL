@@ -659,7 +659,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.2. Procedimiento de inspección de calidad con muestreo del lote por variables
 
-    p.mb-4 En los procesos de inspección las variaciones dan como resultado diferentes medidas de una variable, las cuales tienen una distribución normal o gaussiana, se puede observar en el diagrama en forma de campana o de Gauss.
+    p.mb-4 En los procesos de inspección las variaciones dan como resultado diferentes medidas de una variable, las cuales tienen una distribución normal o gaussiana, que se puede observar en el diagrama en forma de campana o de Gauss.
 
     .row.justify-content-center.mb-5(data-aos='fade-down')
       .col-lg-6.col-md-10

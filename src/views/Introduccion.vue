@@ -12,7 +12,7 @@
 
     .bg1.p-4.mb-4
       p Con respecto al sistema de producción de la empresa se debe conocer de acuerdo con la metodología que promueve la manufactura esbelta, otras técnicas aplicables y así generar la cultura de mejora basada en las personas, enfocándose en eliminar los desperdicios o mudas del proceso productivo, es decir, lo que no agrega valor al cliente.
-      p.mb-0 Es por esto que surge la necesidad de establecer un procedimiento examinando las diferentes técnicas asociadas de la filosofía #[em Lean manufacturing] aplicadas, pues su combinación se relaciona directamente con la calidad de la empresa, en esta oportunidad se mencionan #[em Jidoka], #[em Heijunka], #[em Kanban], #[em Control visual] y #[em Just in Time (JIT)].
+      p.mb-0 Es por esto que surge la necesidad de establecer un procedimiento examinando las diferentes técnicas asociadas de la filosofía #[em Lean manufacturing] aplicadas, pues su combinación se relaciona directamente con la calidad de la empresa, en esta oportunidad se mencionan #[em Jidoka], #[em Heijunka], #[em Kanban], #[em Control visual] y #[em Just in time (JIT)].
     
     img(src='@/assets/curso/temas/intro/1.png', alt='')
 
