@@ -708,7 +708,7 @@
     p.mb-4 El análisis de la aplicación del muestreo por variables comprende distintos factores técnicos, los cuales se detallan en la siguiente recopilación de ventajas y desventajas:
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-lg-7
+      .col-lg-9
         .titulo-sexto.color-secundario.mb-3
           h5 Tabla 4.
           span Ventajas y desventajas aplicación por variables
