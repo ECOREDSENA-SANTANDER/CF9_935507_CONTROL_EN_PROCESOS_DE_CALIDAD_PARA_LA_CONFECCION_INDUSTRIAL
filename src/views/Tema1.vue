@@ -780,7 +780,7 @@
       .col-lg-5.d-none.d-lg-block.ps-lg-0
         img(src='@/assets/curso/temas/t1/32.png', alt='')
 
-    .row.bgcolor-1.align-items-center.p-3.p-md-4
+    .row.bgcolor-1.align-items-center.p-3.p-md-4.mb-3
       .col-lg-12.col-12.px-lg-4
         .row.justify-content-center.align-items-center
 
@@ -796,6 +796,25 @@
                       p.mb-0 Descargue un ejemplo de aplicación de muestreo de lotes por variables.
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Ejemplo1_muestreo_por_variables.docx')" target="_blank" type="application/pdf")
+                        span Descargar 
+                        i.fas.fa-file-download
+
+    .row.bgcolor-1.align-items-center.p-3.p-md-4
+      .col-lg-12.col-12.px-lg-4
+        .row.justify-content-center.align-items-center
+
+          .row.justify-content-center
+            .col-lg-12          
+              .row.justify-content-around.align-items-center
+                .col-3.col-sm-2.col-lg-1
+                  img(src="@/assets/curso/temas/t1/cta.svg")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col-12.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
+                      h4.mb-1 Ejemplo 1. Cálculo y gráfico
+                      p.mb-0 Descargue un ejemplo 1 de cálculo y gráfico.
+                    .col.col-lg-2.mb-3.mb-sm-0
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Ejemplo_1_calculo_y_grafico.xlsx')" target="_blank" type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
                         span Descargar 
                         i.fas.fa-file-download
 
@@ -909,7 +928,7 @@
                   img(src='@/assets/curso/temas/t1/ico-list.svg')
                   span.mb-0 Presentación de resultados.
 
-    .row.bgcolor-1.align-items-center.p-3.p-md-4.mb-4
+    .row.bgcolor-1.align-items-center.p-3.p-md-4.mb-3
       .col-lg-12.col-12.px-lg-4
         .row.justify-content-center.align-items-center
 
@@ -925,6 +944,25 @@
                       p.mb-0 Descargue un ejemplo de aplicación de muestreo de lotes por atributos.
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Ejemplo2_muestreo_por_atributos.docx')" target="_blank" type="application/pdf")
+                        span Descargar 
+                        i.fas.fa-file-download
+
+    .row.bgcolor-1.align-items-center.p-3.p-md-4.mb-4
+      .col-lg-12.col-12.px-lg-4
+        .row.justify-content-center.align-items-center
+
+          .row.justify-content-center
+            .col-lg-12          
+              .row.justify-content-around.align-items-center
+                .col-3.col-sm-2.col-lg-1
+                  img(src="@/assets/curso/temas/t1/cta.svg")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col-12.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
+                      h4.mb-1 Ejemplo 2. Cálculo y gráfico
+                      p.mb-0 Descargue un ejemplo 2 de cálculo y gráfico.
+                    .col.col-lg-2.mb-3.mb-sm-0
+                      a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Ejemplo_2_calculo_y_grafico.xlsx')" target="_blank" type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
                         span Descargar 
                         i.fas.fa-file-download
 

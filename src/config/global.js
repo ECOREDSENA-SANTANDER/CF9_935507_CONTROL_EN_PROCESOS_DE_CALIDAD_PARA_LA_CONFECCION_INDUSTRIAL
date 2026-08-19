@@ -96,14 +96,6 @@ export default {
       },
     ],
   },
-  /*complementario: [
-    {
-      tema: 'Tema 1',
-      referencia: 'Texto',
-      tipo: 'Sitio web',
-      link: 'Link',
-    },
-  ],*/
   glosario: [
     {
       termino: '<em>Andon</em>',
