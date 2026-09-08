@@ -82,7 +82,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CF9_935507_DU.zip',
+        download: 'downloads/935507_CF09_CFA.zip',
       },
       {
         icono: 'fas fa-download',
@@ -203,7 +203,7 @@ export default {
         {
           nombre: 'Claudia Johanna Gómez Pérez',
           cargo:
-            'Profesional 06. Responsable Ecosistema de Recursos Educativos Digitales (RED)',
+            'Profesional grado 06. Responsable Ecosistema Virtual de Recursos Educativos Digitales',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {
