@@ -648,7 +648,7 @@
                   .row.justify-content-between.align-items-center
                     .col-12.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Plantilla de procedimiento
-                      p.mb-0 Descargue un ejemplo del documento que registra los procedimientos y su estructura.
+                      p.mb-0 Descargue el ejemplo del documento que registra los procedimientos y su estructura.
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Plantilla_Procedimiento.docx')" target="_blank" type="application/pdf")
                         span Descargar 
@@ -793,7 +793,7 @@
                   .row.justify-content-between.align-items-center
                     .col-12.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Ejemplo 1. Muestreo por variables
-                      p.mb-0 Descargue un ejemplo de aplicación de muestreo de lotes por variables.
+                      p.mb-0 Descargue el ejemplo 1 de aplicación de muestreo de lotes por variables.
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Ejemplo1_muestreo_por_variables.docx')" target="_blank" type="application/pdf")
                         span Descargar 
@@ -941,7 +941,7 @@
                   .row.justify-content-between.align-items-center
                     .col-12.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Ejemplo 2. Muestreo por atributos
-                      p.mb-0 Descargue un ejemplo de aplicación de muestreo de lotes por atributos.
+                      p.mb-0 Descargue el ejemplo de aplicación de muestreo de lotes por atributos.
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Ejemplo2_muestreo_por_atributos.docx')" target="_blank" type="application/pdf")
                         span Descargar 
