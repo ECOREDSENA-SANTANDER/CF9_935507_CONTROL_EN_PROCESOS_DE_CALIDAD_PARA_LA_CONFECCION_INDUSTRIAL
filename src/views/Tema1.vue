@@ -812,7 +812,7 @@
                   .row.justify-content-between.align-items-center
                     .col-12.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Ejemplo 1. Cálculo y gráfico
-                      p.mb-0 Descargue un ejemplo 1 de cálculo y gráfico.
+                      p.mb-0 Descargue el ejemplo 1 de cálculo y gráfico.
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Ejemplo_1_calculo_y_grafico.xlsx')" target="_blank" type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
                         span Descargar 
@@ -960,7 +960,7 @@
                   .row.justify-content-between.align-items-center
                     .col-12.col-lg-10.col-md-8.mb-3.mb-sm-0.text-white
                       h4.mb-1 Ejemplo 2. Cálculo y gráfico
-                      p.mb-0 Descargue un ejemplo 2 de cálculo y gráfico.
+                      p.mb-0 Descargue el ejemplo 2 de cálculo y gráfico.
                     .col.col-lg-2.mb-3.mb-sm-0
                       a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexos/Ejemplo_2_calculo_y_grafico.xlsx')" target="_blank" type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
                         span Descargar 
